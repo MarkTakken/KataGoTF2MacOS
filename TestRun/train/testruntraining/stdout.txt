@@ -1,0 +1,697 @@
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Initializing with new model config
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 152, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 848, in build_model
+    tf.compat.v1.placeholder(tf.float32, [None] + self.bin_input_shape, name="bin_inputs"))
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py", line 3176, in placeholder
+    raise RuntimeError("tf.placeholder() is not compatible with "
+RuntimeError: tf.placeholder() is not compatible with eager execution.
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 856, in build_model
+    self.assert_batched_shape("bin_inputs",bin_inputs,self.bin_input_shape)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 121, in assert_batched_shape
+    [int(tensor.shape[i+1].value) for i in range(len(shape))] != [int(x) for x in shape]):
+  File "/Users/administrator/KataGoTF2/python/model.py", line 121, in <listcomp>
+    [int(tensor.shape[i+1].value) for i in range(len(shape))] != [int(x) for x in shape]):
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 858, in build_model
+    self.assert_shape("symmetries",symmetries,[3])
+  File "/Users/administrator/KataGoTF2/python/model.py", line 127, in assert_shape
+    [int(x.value) for x in tensor.shape] != [int(x) for x in shape]):
+  File "/Users/administrator/KataGoTF2/python/model.py", line 127, in <listcomp>
+    [int(x.value) for x in tensor.shape] != [int(x) for x in shape]):
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 935, in build_model
+    assert(hist_matrix_builder.shape[0].value == 5)
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 944, in build_model
+    assert(include_history.shape[1].value == 5)
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 945, in build_model
+    transformed_global_inputs = global_inputs * tf.pad(tensor=include_history, paddings=[(0,0),(0,self.num_global_input_features - include_history.shape[1].value)], constant_values=1.0)
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 154, in <module>
+    swa_model = Model(model_config,pos_len,placeholders={})
+  File "/Users/administrator/KataGoTF2/python/model.py", line 117, in __init__
+    self.build_model(config,placeholders)
+  File "/Users/administrator/KataGoTF2/python/model.py", line 993, in build_model
+    residual = self.res_conv_block(
+  File "/Users/administrator/KataGoTF2/python/model.py", line 708, in res_conv_block
+    trans1_layer = self.relu(name+"/relu1",(self.batchnorm_and_mask(name+"/norm1",in_layer,mask,mask_sum)))
+  File "/Users/administrator/KataGoTF2/python/model.py", line 513, in batchnorm_and_mask
+    self.batch_norms[name] = (tensor.shape[-1].value,1e-20,True,use_gamma_in_fixup,self.use_fixup)
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 168, in <module>
+    swa_wvalues[variable.name] = np.zeros([elt.value for elt in variable.shape])
+  File "/Users/administrator/KataGoTF2/python/train.py", line 168, in <listcomp>
+    swa_wvalues[variable.name] = np.zeros([elt.value for elt in variable.shape])
+AttributeError: 'int' object has no attribute 'value'
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Updated training data: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300
+Wrote /Users/administrator/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-02-06 23:24:47.474751
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 3984
+WARNING:tensorflow:From /Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/training_util.py:235: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 32/1 files used (992 batches)
+WARNING:tensorflow:AutoGraph could not transform <function make_tf_record_parser.<locals>.parse_input at 0x121b57790> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2021-02-06 23:24:51.859723: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+2021-02-06 23:24:51.895317: W tensorflow/core/platform/profile_utils/cpu_utils.cc:126] Failed to get CPU frequency: 0 Hz
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote /Users/administrator/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+2021-02-06 23:24:58.699889: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-02-06 23:24:59.968219: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-02-06 23:24:59.971216: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-02-06 23:24:59.973441: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+Traceback (most recent call last):
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1375, in _do_call
+    return fn(*args)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1359, in _run_fn
+    return self._call_tf_sessionrun(options, feed_dict, fetch_list,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1451, in _call_tf_sessionrun
+    return tf_session.TF_SessionRun_wrapper(self._session, options, feed_dict,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 723, in <module>
+    estimator.train(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 349, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1175, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1206, in _train_model_default
+    return self._train_with_estimator_spec(estimator_spec, worker_hooks,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1514, in _train_with_estimator_spec
+    _, loss = mon_sess.run([estimator_spec.train_op, estimator_spec.loss])
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 774, in run
+    return self._sess.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1279, in run
+    return self._sess.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1384, in run
+    raise six.reraise(*original_exc_info)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1369, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1437, in run
+    outputs = _WrappedSession.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1200, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1190, in _run
+    results = self._do_run(handle, final_targets, final_fetches,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1368, in _do_run
+    return self._do_call(_run_fn, feeds, fetches, targets, options,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1394, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]
+['/Users/administrator/KataGoTF2/python/train.py', '-traindir', '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/administrator/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/administrator/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': '/Users/administrator/KataGoTF2/TestRun/train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Loading existing training history: /Users/administrator/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+Updated training data: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300
+Wrote /Users/administrator/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-02-06 23:42:13.866076
+Global step: 0 (0 samples)
+Currently up to data row 3984
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 3984
+WARNING:tensorflow:From /Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/training_util.py:235: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 31/1 files used (961 batches)
+WARNING:tensorflow:AutoGraph could not transform <function make_tf_record_parser.<locals>.parse_input at 0x127d7d790> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.ckpt-0
+2021-02-06 23:42:18.242083: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+2021-02-06 23:42:18.277673: W tensorflow/core/platform/profile_utils/cpu_utils.cc:126] Failed to get CPU frequency: 0 Hz
+WARNING:tensorflow:From /Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/saver.py:1076: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into /Users/administrator/KataGoTF2/TestRun/train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote /Users/administrator/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+2021-02-06 23:42:24.978586: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-02-06 23:42:26.241785: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-02-06 23:42:26.244781: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-02-06 23:42:26.247014: W tensorflow/core/framework/op_kernel.cc:1775] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+Traceback (most recent call last):
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1375, in _do_call
+    return fn(*args)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1359, in _run_fn
+    return self._call_tf_sessionrun(options, feed_dict, fetch_list,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1451, in _call_tf_sessionrun
+    return tf_session.TF_SessionRun_wrapper(self._session, options, feed_dict,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/administrator/KataGoTF2/python/train.py", line 723, in <module>
+    estimator.train(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 349, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1175, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1206, in _train_model_default
+    return self._train_with_estimator_spec(estimator_spec, worker_hooks,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1514, in _train_with_estimator_spec
+    _, loss = mon_sess.run([estimator_spec.train_op, estimator_spec.loss])
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 774, in run
+    return self._sess.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1279, in run
+    return self._sess.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1384, in run
+    raise six.reraise(*original_exc_info)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1369, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1437, in run
+    outputs = _WrappedSession.run(
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/training/monitored_session.py", line 1200, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1190, in _run
+    results = self._do_run(handle, final_targets, final_fetches,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1368, in _do_run
+    return self._do_call(_run_fn, feeds, fetches, targets, options,
+  File "/Users/administrator/miniforge3/envs/python38/lib/python3.8/site-packages/tensorflow/python/client/session.py", line 1394, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]
+['/Users/marktakken/Documents/KataGo/KataGoTF2/python/train.py', '-traindir', '/Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining', '-datadir', '/Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/current/', '-exportdir', '/Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Loading existing model config at /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+2021-03-25 19:18:37.579287: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': '/Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Loading existing training history: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+Updated training data: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300
+Wrote /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-03-25 19:18:38.584364
+Global step: 0 (0 samples)
+Currently up to data row 3984
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/shuffleddata/20210206-200300/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 3984
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 32/1 files used (992 batches)
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2021-03-25 19:18:44.050389: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Restoring parameters from /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/model.ckpt-0
+2021-03-25 19:18:44.126764: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1076: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote /Users/marktakken/Documents/KataGo/KataGoTF2/TestRun/train/testruntraining/trainhistory.json
+2021-03-25 19:18:48.328206: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-03-25 19:18:51.026186: W tensorflow/core/framework/op_kernel.cc:1763] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-03-25 19:18:51.030260: W tensorflow/core/framework/op_kernel.cc:1763] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+2021-03-25 19:18:51.032947: W tensorflow/core/framework/op_kernel.cc:1763] OP_REQUIRES failed at example_parsing_ops.cc:94 : Invalid argument: Key: vtnchw.  Can't parse serialized Example.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1375, in _do_call
+    return fn(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1360, in _run_fn
+    target_list, run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1453, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/marktakken/Documents/KataGo/KataGoTF2/python/train.py", line 726, in <module>
+    CheckpointSaverListenerFunction(save_history)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 349, in train
+    loss = self._train_model(input_fn, hooks, saving_listeners)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1175, in _train_model
+    return self._train_model_default(input_fn, hooks, saving_listeners)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1208, in _train_model_default
+    saving_listeners)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow_estimator/python/estimator/estimator.py", line 1514, in _train_with_estimator_spec
+    _, loss = mon_sess.run([estimator_spec.train_op, estimator_spec.loss])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 778, in run
+    run_metadata=run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1283, in run
+    run_metadata=run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1384, in run
+    raise six.reraise(*original_exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/six.py", line 703, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1369, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1442, in run
+    run_metadata=run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/monitored_session.py", line 1200, in run
+    return self._sess.run(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 968, in run
+    run_metadata_ptr)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1191, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1369, in _do_run
+    run_metadata)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1394, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Key: vtnchw.  Can't parse serialized Example.
+	 [[{{node ParseSingleExample/ParseExample/ParseExampleV2}}]]
+	 [[IteratorGetNext]]

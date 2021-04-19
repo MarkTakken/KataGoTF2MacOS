@@ -1,0 +1,22 @@
+Beginning: Finding files
+Finished: Finding files in 0.0001347064971923828 seconds
+Total number of files: 2
+Total number of files with unknown row count: 2
+Beginning: Sorting
+Finished: Sorting in 1.1920928955078125e-06 seconds
+Beginning: Computing rows for unsummarized files
+Finished: Computing rows for unsummarized files in 1.6864030361175537 seconds
+Total rows found: 7769 (80 usable)
+Desired num rows: 80 / 7769
+Beginning: Computing desired rows
+Using: /Users/administrator/KataGoTF2/TestRun/selfplay/random/tdata/E158BC5B1DE7BAFF.npz (3984-7769) (3785/80 desired rows)
+Finished: Computing desired rows in 1.8835067749023438e-05 seconds
+Writing 1 output files with 3785 kept / 80 desired rows
+Grouping 1 input files into 1 sharding groups
+Beginning: Sharding
+Finished: Sharding in 2.048774003982544 seconds
+Beginning: Merging
+Finished: Merging in 4.217092037200928 seconds
+Mumber of rows by output file:
+[('/Users/administrator/KataGoTF2/TestRun/shuffleddata/20210206-223506/train/data0.tfrecord', 3712)]
+Cleaning up tmp dir: /Users/administrator/KataGoTF2/TestRun/shufflescratch/train/tmp.shuf0

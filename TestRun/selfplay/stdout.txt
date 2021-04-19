@@ -1,0 +1,1672 @@
+2021-02-06 20:01:58-0500: Self Play Engine starting...
+2021-02-06 20:01:58-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 20:01:58-0500: Loaded all config stuff, starting self play
+2021-02-06 20:01:58-0500: Found new neural net random
+2021-02-06 20:01:58-0500: nnRandSeed0 = 11458699771466237519
+2021-02-06 20:01:58-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 20:01:58-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 20:01:58-0500: Model loading loop thread loaded new neural net random
+2021-02-06 20:01:58-0500: Data write loop starting for neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 10 games with random
+2021-02-06 20:01:58-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 20 games with random
+2021-02-06 20:01:58-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 30 games with random
+2021-02-06 20:01:58-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 40 games with random
+2021-02-06 20:01:58-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 50 games with random
+2021-02-06 20:01:58-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Model loading loop thread starting
+2021-02-06 20:01:58-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Started 60 games with random
+2021-02-06 20:01:58-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 20:01:58-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 20:02:09-0500: Game loop thread 34 terminating
+2021-02-06 20:02:14-0500: Game loop thread 45 terminating
+2021-02-06 20:02:14-0500: Game loop thread 52 terminating
+2021-02-06 20:02:15-0500: Game loop thread 57 terminating
+2021-02-06 20:02:15-0500: Game loop thread 5 terminating
+2021-02-06 20:02:17-0500: Game loop thread 23 terminating
+2021-02-06 20:02:18-0500: Game loop thread 18 terminating
+2021-02-06 20:02:18-0500: Game loop thread 14 terminating
+2021-02-06 20:02:20-0500: Game loop thread 44 terminating
+2021-02-06 20:02:22-0500: Game loop thread 13 terminating
+2021-02-06 20:02:23-0500: Game loop thread 36 terminating
+2021-02-06 20:02:24-0500: Game loop thread 12 terminating
+2021-02-06 20:02:28-0500: Game loop thread 58 terminating
+2021-02-06 20:02:30-0500: Game loop thread 48 terminating
+2021-02-06 20:02:32-0500: Game loop thread 6 terminating
+2021-02-06 20:02:32-0500: Game loop thread 55 terminating
+2021-02-06 20:02:32-0500: Game loop thread 53 terminating
+2021-02-06 20:02:33-0500: Game loop thread 3 terminating
+2021-02-06 20:02:35-0500: Game loop thread 29 terminating
+2021-02-06 20:02:35-0500: Game loop thread 54 terminating
+2021-02-06 20:02:36-0500: Game loop thread 0 terminating
+2021-02-06 20:02:37-0500: Game loop thread 40 terminating
+2021-02-06 20:02:37-0500: Game loop thread 10 terminating
+2021-02-06 20:02:37-0500: Game loop thread 1 terminating
+2021-02-06 20:02:38-0500: Game loop thread 50 terminating
+2021-02-06 20:02:38-0500: Game loop thread 30 terminating
+2021-02-06 20:02:39-0500: Game loop thread 49 terminating
+2021-02-06 20:02:41-0500: Game loop thread 24 terminating
+2021-02-06 20:02:42-0500: Game loop thread 41 terminating
+2021-02-06 20:02:42-0500: Game loop thread 42 terminating
+2021-02-06 20:02:44-0500: Game loop thread 7 terminating
+2021-02-06 20:02:44-0500: Game loop thread 37 terminating
+2021-02-06 20:02:44-0500: Game loop thread 63 terminating
+2021-02-06 20:02:44-0500: Game loop thread 38 terminating
+2021-02-06 20:02:45-0500: Game loop thread 19 terminating
+2021-02-06 20:02:45-0500: Game loop thread 11 terminating
+2021-02-06 20:02:45-0500: Game loop thread 51 terminating
+2021-02-06 20:02:45-0500: Game loop thread 56 terminating
+2021-02-06 20:02:46-0500: Game loop thread 15 terminating
+2021-02-06 20:02:46-0500: Game loop thread 8 terminating
+2021-02-06 20:02:46-0500: Game loop thread 27 terminating
+2021-02-06 20:02:47-0500: Game loop thread 43 terminating
+2021-02-06 20:02:47-0500: Game loop thread 17 terminating
+2021-02-06 20:02:47-0500: Game loop thread 47 terminating
+2021-02-06 20:02:47-0500: Game loop thread 61 terminating
+2021-02-06 20:02:48-0500: Game loop thread 35 terminating
+2021-02-06 20:02:48-0500: Game loop thread 2 terminating
+2021-02-06 20:02:48-0500: Game loop thread 21 terminating
+2021-02-06 20:02:48-0500: Game loop thread 39 terminating
+2021-02-06 20:02:49-0500: Game loop thread 26 terminating
+2021-02-06 20:02:50-0500: Game loop thread 59 terminating
+2021-02-06 20:02:50-0500: Game loop thread 46 terminating
+2021-02-06 20:02:51-0500: Game loop thread 4 terminating
+2021-02-06 20:02:52-0500: Game loop thread 32 terminating
+2021-02-06 20:02:52-0500: Game loop thread 28 terminating
+2021-02-06 20:02:53-0500: Game loop thread 22 terminating
+2021-02-06 20:02:53-0500: Game loop thread 33 terminating
+2021-02-06 20:02:53-0500: Game loop thread 25 terminating
+2021-02-06 20:02:53-0500: Game loop thread 20 terminating
+2021-02-06 20:02:53-0500: Game loop thread 9 terminating
+2021-02-06 20:02:54-0500: Game loop thread 16 terminating
+2021-02-06 20:02:54-0500: Game loop thread 60 terminating
+2021-02-06 20:02:55-0500: Game loop thread 62 terminating
+2021-02-06 20:02:57-0500: Game loop thread 31 terminating
+2021-02-06 20:02:57-0500: Model loading loop thread terminating
+2021-02-06 20:02:59-0500: Data write loop finishing for neural net: random
+2021-02-06 20:02:59-0500: Final cleanup of net: /dev/null
+2021-02-06 20:02:59-0500: Final NN rows: 0
+2021-02-06 20:02:59-0500: Final NN batches: 0
+2021-02-06 20:02:59-0500: Final NN avg batch size: nan
+2021-02-06 20:03:00-0500: Data write loop cleaned up and terminating for random
+2021-02-06 20:03:00-0500: All cleaned up, quitting
+2021-02-06 22:34:08-0500: Self Play Engine starting...
+2021-02-06 22:34:08-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 22:34:08-0500: Loaded all config stuff, starting self play
+2021-02-06 22:34:08-0500: Found new neural net random
+2021-02-06 22:34:08-0500: nnRandSeed0 = 9409907253461159130
+2021-02-06 22:34:08-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 22:34:08-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 22:34:08-0500: Model loading loop thread loaded new neural net random
+2021-02-06 22:34:08-0500: Data write loop starting for neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 10 games with random
+2021-02-06 22:34:08-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 20 games with random
+2021-02-06 22:34:08-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Model loading loop thread starting
+2021-02-06 22:34:08-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 30 games with random
+2021-02-06 22:34:08-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 40 games with random
+2021-02-06 22:34:08-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 50 games with random
+2021-02-06 22:34:08-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Started 60 games with random
+2021-02-06 22:34:08-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 22:34:08-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 22:34:10-0500: Game loop thread 5 terminating
+2021-02-06 22:34:15-0500: Game loop thread 44 terminating
+2021-02-06 22:34:20-0500: Game loop thread 34 terminating
+2021-02-06 22:34:26-0500: Game loop thread 3 terminating
+2021-02-06 22:34:26-0500: Game loop thread 22 terminating
+2021-02-06 22:34:27-0500: Game loop thread 14 terminating
+2021-02-06 22:34:27-0500: Game loop thread 11 terminating
+2021-02-06 22:34:28-0500: Game loop thread 47 terminating
+2021-02-06 22:34:29-0500: Game loop thread 46 terminating
+2021-02-06 22:34:30-0500: Game loop thread 45 terminating
+2021-02-06 22:34:31-0500: Game loop thread 20 terminating
+2021-02-06 22:34:32-0500: Game loop thread 18 terminating
+2021-02-06 22:34:37-0500: Game loop thread 8 terminating
+2021-02-06 22:34:37-0500: Game loop thread 62 terminating
+2021-02-06 22:34:37-0500: Game loop thread 37 terminating
+2021-02-06 22:34:40-0500: Game loop thread 53 terminating
+2021-02-06 22:34:41-0500: Game loop thread 28 terminating
+2021-02-06 22:34:42-0500: Game loop thread 55 terminating
+2021-02-06 22:34:44-0500: Game loop thread 9 terminating
+2021-02-06 22:34:45-0500: Game loop thread 16 terminating
+2021-02-06 22:34:45-0500: Game loop thread 57 terminating
+2021-02-06 22:34:45-0500: Game loop thread 49 terminating
+2021-02-06 22:34:45-0500: Game loop thread 17 terminating
+2021-02-06 22:34:47-0500: Game loop thread 42 terminating
+2021-02-06 22:34:48-0500: Game loop thread 12 terminating
+2021-02-06 22:34:48-0500: Game loop thread 27 terminating
+2021-02-06 22:34:49-0500: Game loop thread 7 terminating
+2021-02-06 22:34:49-0500: Game loop thread 2 terminating
+2021-02-06 22:34:51-0500: Game loop thread 19 terminating
+2021-02-06 22:34:51-0500: Game loop thread 41 terminating
+2021-02-06 22:34:53-0500: Game loop thread 40 terminating
+2021-02-06 22:34:53-0500: Game loop thread 0 terminating
+2021-02-06 22:34:54-0500: Game loop thread 36 terminating
+2021-02-06 22:34:55-0500: Game loop thread 31 terminating
+2021-02-06 22:34:56-0500: Game loop thread 52 terminating
+2021-02-06 22:34:56-0500: Game loop thread 54 terminating
+2021-02-06 22:34:56-0500: Game loop thread 6 terminating
+2021-02-06 22:34:56-0500: Game loop thread 25 terminating
+2021-02-06 22:34:57-0500: Game loop thread 33 terminating
+2021-02-06 22:34:58-0500: Game loop thread 15 terminating
+2021-02-06 22:34:58-0500: Game loop thread 26 terminating
+2021-02-06 22:34:58-0500: Game loop thread 48 terminating
+2021-02-06 22:34:59-0500: Game loop thread 24 terminating
+2021-02-06 22:34:59-0500: Game loop thread 29 terminating
+2021-02-06 22:34:59-0500: Game loop thread 50 terminating
+2021-02-06 22:35:00-0500: Game loop thread 21 terminating
+2021-02-06 22:35:00-0500: Game loop thread 1 terminating
+2021-02-06 22:35:00-0500: Game loop thread 32 terminating
+2021-02-06 22:35:00-0500: Game loop thread 39 terminating
+2021-02-06 22:35:00-0500: Game loop thread 56 terminating
+2021-02-06 22:35:00-0500: Game loop thread 61 terminating
+2021-02-06 22:35:00-0500: Game loop thread 63 terminating
+2021-02-06 22:35:00-0500: Game loop thread 13 terminating
+2021-02-06 22:35:00-0500: Game loop thread 23 terminating
+2021-02-06 22:35:01-0500: Game loop thread 10 terminating
+2021-02-06 22:35:01-0500: Game loop thread 4 terminating
+2021-02-06 22:35:01-0500: Game loop thread 38 terminating
+2021-02-06 22:35:01-0500: Game loop thread 58 terminating
+2021-02-06 22:35:01-0500: Game loop thread 35 terminating
+2021-02-06 22:35:02-0500: Game loop thread 30 terminating
+2021-02-06 22:35:02-0500: Game loop thread 60 terminating
+2021-02-06 22:35:02-0500: Game loop thread 51 terminating
+2021-02-06 22:35:03-0500: Game loop thread 43 terminating
+2021-02-06 22:35:03-0500: Game loop thread 59 terminating
+2021-02-06 22:35:03-0500: Model loading loop thread terminating
+2021-02-06 22:35:05-0500: Data write loop finishing for neural net: random
+2021-02-06 22:35:05-0500: Final cleanup of net: /dev/null
+2021-02-06 22:35:05-0500: Final NN rows: 0
+2021-02-06 22:35:05-0500: Final NN batches: 0
+2021-02-06 22:35:05-0500: Final NN avg batch size: nan
+2021-02-06 22:35:06-0500: Data write loop cleaned up and terminating for random
+2021-02-06 22:35:06-0500: All cleaned up, quitting
+2021-02-06 22:53:19-0500: Self Play Engine starting...
+2021-02-06 22:53:19-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 22:53:19-0500: Loaded all config stuff, starting self play
+2021-02-06 22:53:19-0500: Found new neural net random
+2021-02-06 22:53:19-0500: nnRandSeed0 = 12817463224104372330
+2021-02-06 22:53:19-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 22:53:19-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 22:53:19-0500: Model loading loop thread loaded new neural net random
+2021-02-06 22:53:19-0500: Data write loop starting for neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 10 games with random
+2021-02-06 22:53:19-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 20 games with random
+2021-02-06 22:53:19-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 30 games with random
+2021-02-06 22:53:19-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 40 games with random
+2021-02-06 22:53:19-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 50 games with random
+2021-02-06 22:53:19-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Model loading loop thread starting
+2021-02-06 22:53:19-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Started 60 games with random
+2021-02-06 22:53:19-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 22:53:19-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 22:53:21-0500: Game loop thread 25 terminating
+2021-02-06 22:53:24-0500: Game loop thread 2 terminating
+2021-02-06 22:53:25-0500: Game loop thread 62 terminating
+2021-02-06 22:53:31-0500: Game loop thread 21 terminating
+2021-02-06 22:53:34-0500: Game loop thread 4 terminating
+2021-02-06 22:53:35-0500: Game loop thread 48 terminating
+2021-02-06 22:53:36-0500: Game loop thread 24 terminating
+2021-02-06 22:53:40-0500: Game loop thread 42 terminating
+2021-02-06 22:53:41-0500: Game loop thread 58 terminating
+2021-02-06 22:53:43-0500: Game loop thread 16 terminating
+2021-02-06 22:53:45-0500: Game loop thread 47 terminating
+2021-02-06 22:53:45-0500: Game loop thread 31 terminating
+2021-02-06 22:53:46-0500: Game loop thread 37 terminating
+2021-02-06 22:53:47-0500: Game loop thread 56 terminating
+2021-02-06 22:53:47-0500: Game loop thread 43 terminating
+2021-02-06 22:53:49-0500: Game loop thread 20 terminating
+2021-02-06 22:53:49-0500: Game loop thread 1 terminating
+2021-02-06 22:53:50-0500: Game loop thread 10 terminating
+2021-02-06 22:53:50-0500: Game loop thread 15 terminating
+2021-02-06 22:53:51-0500: Game loop thread 35 terminating
+2021-02-06 22:53:52-0500: Game loop thread 59 terminating
+2021-02-06 22:53:52-0500: Game loop thread 23 terminating
+2021-02-06 22:53:53-0500: Game loop thread 19 terminating
+2021-02-06 22:53:53-0500: Game loop thread 5 terminating
+2021-02-06 22:53:54-0500: Game loop thread 7 terminating
+2021-02-06 22:53:55-0500: Game loop thread 44 terminating
+2021-02-06 22:53:55-0500: Game loop thread 39 terminating
+2021-02-06 22:53:56-0500: Game loop thread 6 terminating
+2021-02-06 22:53:58-0500: Game loop thread 57 terminating
+2021-02-06 22:53:58-0500: Game loop thread 63 terminating
+2021-02-06 22:54:00-0500: Game loop thread 17 terminating
+2021-02-06 22:54:00-0500: Game loop thread 51 terminating
+2021-02-06 22:54:01-0500: Game loop thread 3 terminating
+2021-02-06 22:54:01-0500: Game loop thread 33 terminating
+2021-02-06 22:54:02-0500: Game loop thread 41 terminating
+2021-02-06 22:54:02-0500: Game loop thread 38 terminating
+2021-02-06 22:54:02-0500: Game loop thread 8 terminating
+2021-02-06 22:54:03-0500: Game loop thread 22 terminating
+2021-02-06 22:54:03-0500: Game loop thread 52 terminating
+2021-02-06 22:54:03-0500: Game loop thread 53 terminating
+2021-02-06 22:54:05-0500: Game loop thread 0 terminating
+2021-02-06 22:54:05-0500: Game loop thread 55 terminating
+2021-02-06 22:54:05-0500: Game loop thread 14 terminating
+2021-02-06 22:54:05-0500: Game loop thread 30 terminating
+2021-02-06 22:54:05-0500: Game loop thread 27 terminating
+2021-02-06 22:54:05-0500: Game loop thread 61 terminating
+2021-02-06 22:54:06-0500: Game loop thread 9 terminating
+2021-02-06 22:54:06-0500: Game loop thread 12 terminating
+2021-02-06 22:54:06-0500: Game loop thread 29 terminating
+2021-02-06 22:54:07-0500: Game loop thread 60 terminating
+2021-02-06 22:54:07-0500: Game loop thread 49 terminating
+2021-02-06 22:54:07-0500: Game loop thread 46 terminating
+2021-02-06 22:54:07-0500: Game loop thread 36 terminating
+2021-02-06 22:54:08-0500: Game loop thread 28 terminating
+2021-02-06 22:54:08-0500: Game loop thread 40 terminating
+2021-02-06 22:54:08-0500: Game loop thread 34 terminating
+2021-02-06 22:54:09-0500: Game loop thread 50 terminating
+2021-02-06 22:54:09-0500: Game loop thread 32 terminating
+2021-02-06 22:54:09-0500: Game loop thread 13 terminating
+2021-02-06 22:54:09-0500: Game loop thread 11 terminating
+2021-02-06 22:54:10-0500: Game loop thread 54 terminating
+2021-02-06 22:54:10-0500: Game loop thread 18 terminating
+2021-02-06 22:54:10-0500: Game loop thread 45 terminating
+2021-02-06 22:54:10-0500: Game loop thread 26 terminating
+2021-02-06 22:54:10-0500: Model loading loop thread terminating
+2021-02-06 22:54:12-0500: Data write loop finishing for neural net: random
+2021-02-06 22:54:12-0500: Final cleanup of net: /dev/null
+2021-02-06 22:54:12-0500: Final NN rows: 0
+2021-02-06 22:54:12-0500: Final NN batches: 0
+2021-02-06 22:54:12-0500: Final NN avg batch size: nan
+2021-02-06 22:54:13-0500: Data write loop cleaned up and terminating for random
+2021-02-06 22:54:13-0500: All cleaned up, quitting
+2021-02-06 22:59:52-0500: Self Play Engine starting...
+2021-02-06 22:59:52-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 22:59:52-0500: Loaded all config stuff, starting self play
+2021-02-06 22:59:52-0500: Found new neural net random
+2021-02-06 22:59:52-0500: nnRandSeed0 = 3499329703971543580
+2021-02-06 22:59:52-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 22:59:52-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 22:59:52-0500: Model loading loop thread loaded new neural net random
+2021-02-06 22:59:52-0500: Data write loop starting for neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 10 games with random
+2021-02-06 22:59:52-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 20 games with random
+2021-02-06 22:59:52-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 30 games with random
+2021-02-06 22:59:52-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Model loading loop thread starting
+2021-02-06 22:59:52-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 40 games with random
+2021-02-06 22:59:52-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 50 games with random
+2021-02-06 22:59:52-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Started 60 games with random
+2021-02-06 22:59:52-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 22:59:52-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:00:06-0500: Game loop thread 46 terminating
+2021-02-06 23:00:08-0500: Game loop thread 8 terminating
+2021-02-06 23:00:11-0500: Game loop thread 20 terminating
+2021-02-06 23:00:12-0500: Game loop thread 31 terminating
+2021-02-06 23:00:14-0500: Game loop thread 27 terminating
+2021-02-06 23:00:14-0500: Game loop thread 51 terminating
+2021-02-06 23:00:15-0500: Game loop thread 40 terminating
+2021-02-06 23:00:15-0500: Game loop thread 13 terminating
+2021-02-06 23:00:15-0500: Game loop thread 36 terminating
+2021-02-06 23:00:20-0500: Game loop thread 49 terminating
+2021-02-06 23:00:20-0500: Game loop thread 14 terminating
+2021-02-06 23:00:22-0500: Game loop thread 29 terminating
+2021-02-06 23:00:22-0500: Game loop thread 52 terminating
+2021-02-06 23:00:22-0500: Game loop thread 56 terminating
+2021-02-06 23:00:23-0500: Game loop thread 54 terminating
+2021-02-06 23:00:25-0500: Game loop thread 25 terminating
+2021-02-06 23:00:25-0500: Game loop thread 59 terminating
+2021-02-06 23:00:26-0500: Game loop thread 9 terminating
+2021-02-06 23:00:26-0500: Game loop thread 23 terminating
+2021-02-06 23:00:26-0500: Game loop thread 45 terminating
+2021-02-06 23:00:27-0500: Game loop thread 4 terminating
+2021-02-06 23:00:28-0500: Game loop thread 15 terminating
+2021-02-06 23:00:28-0500: Game loop thread 12 terminating
+2021-02-06 23:00:29-0500: Game loop thread 58 terminating
+2021-02-06 23:00:29-0500: Game loop thread 5 terminating
+2021-02-06 23:00:29-0500: Game loop thread 3 terminating
+2021-02-06 23:00:30-0500: Game loop thread 62 terminating
+2021-02-06 23:00:30-0500: Game loop thread 21 terminating
+2021-02-06 23:00:30-0500: Game loop thread 22 terminating
+2021-02-06 23:00:31-0500: Game loop thread 60 terminating
+2021-02-06 23:00:33-0500: Game loop thread 24 terminating
+2021-02-06 23:00:33-0500: Game loop thread 34 terminating
+2021-02-06 23:00:33-0500: Game loop thread 6 terminating
+2021-02-06 23:00:34-0500: Game loop thread 32 terminating
+2021-02-06 23:00:34-0500: Game loop thread 26 terminating
+2021-02-06 23:00:34-0500: Game loop thread 39 terminating
+2021-02-06 23:00:35-0500: Game loop thread 53 terminating
+2021-02-06 23:00:35-0500: Game loop thread 33 terminating
+2021-02-06 23:00:36-0500: Game loop thread 48 terminating
+2021-02-06 23:00:39-0500: Game loop thread 37 terminating
+2021-02-06 23:00:39-0500: Game loop thread 55 terminating
+2021-02-06 23:00:40-0500: Game loop thread 41 terminating
+2021-02-06 23:00:40-0500: Game loop thread 38 terminating
+2021-02-06 23:00:40-0500: Game loop thread 7 terminating
+2021-02-06 23:00:40-0500: Game loop thread 57 terminating
+2021-02-06 23:00:41-0500: Game loop thread 19 terminating
+2021-02-06 23:00:41-0500: Game loop thread 42 terminating
+2021-02-06 23:00:41-0500: Game loop thread 16 terminating
+2021-02-06 23:00:42-0500: Game loop thread 2 terminating
+2021-02-06 23:00:42-0500: Game loop thread 63 terminating
+2021-02-06 23:00:43-0500: Game loop thread 61 terminating
+2021-02-06 23:00:43-0500: Game loop thread 0 terminating
+2021-02-06 23:00:43-0500: Game loop thread 17 terminating
+2021-02-06 23:00:44-0500: Game loop thread 18 terminating
+2021-02-06 23:00:44-0500: Game loop thread 30 terminating
+2021-02-06 23:00:44-0500: Game loop thread 50 terminating
+2021-02-06 23:00:44-0500: Game loop thread 44 terminating
+2021-02-06 23:00:44-0500: Game loop thread 47 terminating
+2021-02-06 23:00:44-0500: Game loop thread 1 terminating
+2021-02-06 23:00:45-0500: Game loop thread 11 terminating
+2021-02-06 23:00:45-0500: Game loop thread 35 terminating
+2021-02-06 23:00:46-0500: Game loop thread 28 terminating
+2021-02-06 23:00:46-0500: Game loop thread 10 terminating
+2021-02-06 23:00:47-0500: Game loop thread 43 terminating
+2021-02-06 23:00:47-0500: Model loading loop thread terminating
+2021-02-06 23:00:49-0500: Data write loop finishing for neural net: random
+2021-02-06 23:00:49-0500: Final cleanup of net: /dev/null
+2021-02-06 23:00:49-0500: Final NN rows: 0
+2021-02-06 23:00:49-0500: Final NN batches: 0
+2021-02-06 23:00:49-0500: Final NN avg batch size: nan
+2021-02-06 23:00:50-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:00:50-0500: All cleaned up, quitting
+2021-02-06 23:05:15-0500: Self Play Engine starting...
+2021-02-06 23:05:15-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:05:15-0500: Loaded all config stuff, starting self play
+2021-02-06 23:05:15-0500: Found new neural net random
+2021-02-06 23:05:15-0500: nnRandSeed0 = 18127975120594693880
+2021-02-06 23:05:15-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:05:15-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:05:15-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:05:15-0500: Data write loop starting for neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 10 games with random
+2021-02-06 23:05:15-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 20 games with random
+2021-02-06 23:05:15-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 30 games with random
+2021-02-06 23:05:15-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Model loading loop thread starting
+2021-02-06 23:05:15-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 40 games with random
+2021-02-06 23:05:15-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 50 games with random
+2021-02-06 23:05:15-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Started 60 games with random
+2021-02-06 23:05:15-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:05:15-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:05:17-0500: Game loop thread 16 terminating
+2021-02-06 23:05:31-0500: Game loop thread 36 terminating
+2021-02-06 23:05:32-0500: Game loop thread 59 terminating
+2021-02-06 23:05:34-0500: Game loop thread 29 terminating
+2021-02-06 23:05:34-0500: Game loop thread 54 terminating
+2021-02-06 23:05:36-0500: Game loop thread 33 terminating
+2021-02-06 23:05:38-0500: Game loop thread 52 terminating
+2021-02-06 23:05:39-0500: Game loop thread 20 terminating
+2021-02-06 23:05:42-0500: Game loop thread 60 terminating
+2021-02-06 23:05:42-0500: Game loop thread 43 terminating
+2021-02-06 23:05:42-0500: Game loop thread 32 terminating
+2021-02-06 23:05:45-0500: Game loop thread 12 terminating
+2021-02-06 23:05:45-0500: Game loop thread 56 terminating
+2021-02-06 23:05:47-0500: Game loop thread 39 terminating
+2021-02-06 23:05:47-0500: Game loop thread 61 terminating
+2021-02-06 23:05:47-0500: Game loop thread 28 terminating
+2021-02-06 23:05:48-0500: Game loop thread 23 terminating
+2021-02-06 23:05:49-0500: Game loop thread 57 terminating
+2021-02-06 23:05:49-0500: Game loop thread 4 terminating
+2021-02-06 23:05:49-0500: Game loop thread 31 terminating
+2021-02-06 23:05:50-0500: Game loop thread 30 terminating
+2021-02-06 23:05:51-0500: Game loop thread 2 terminating
+2021-02-06 23:05:51-0500: Game loop thread 63 terminating
+2021-02-06 23:05:52-0500: Game loop thread 37 terminating
+2021-02-06 23:05:53-0500: Game loop thread 3 terminating
+2021-02-06 23:05:54-0500: Game loop thread 0 terminating
+2021-02-06 23:05:55-0500: Game loop thread 42 terminating
+2021-02-06 23:05:56-0500: Game loop thread 22 terminating
+2021-02-06 23:05:56-0500: Game loop thread 5 terminating
+2021-02-06 23:05:58-0500: Game loop thread 26 terminating
+2021-02-06 23:05:58-0500: Game loop thread 45 terminating
+2021-02-06 23:05:58-0500: Game loop thread 49 terminating
+2021-02-06 23:05:59-0500: Game loop thread 34 terminating
+2021-02-06 23:06:00-0500: Game loop thread 35 terminating
+2021-02-06 23:06:00-0500: Game loop thread 47 terminating
+2021-02-06 23:06:00-0500: Game loop thread 50 terminating
+2021-02-06 23:06:00-0500: Game loop thread 10 terminating
+2021-02-06 23:06:00-0500: Game loop thread 19 terminating
+2021-02-06 23:06:01-0500: Game loop thread 17 terminating
+2021-02-06 23:06:01-0500: Game loop thread 1 terminating
+2021-02-06 23:06:02-0500: Game loop thread 53 terminating
+2021-02-06 23:06:02-0500: Game loop thread 51 terminating
+2021-02-06 23:06:03-0500: Game loop thread 9 terminating
+2021-02-06 23:06:03-0500: Game loop thread 58 terminating
+2021-02-06 23:06:03-0500: Game loop thread 48 terminating
+2021-02-06 23:06:03-0500: Game loop thread 13 terminating
+2021-02-06 23:06:03-0500: Game loop thread 18 terminating
+2021-02-06 23:06:04-0500: Game loop thread 40 terminating
+2021-02-06 23:06:04-0500: Game loop thread 6 terminating
+2021-02-06 23:06:04-0500: Game loop thread 46 terminating
+2021-02-06 23:06:05-0500: Game loop thread 11 terminating
+2021-02-06 23:06:05-0500: Game loop thread 21 terminating
+2021-02-06 23:06:05-0500: Game loop thread 38 terminating
+2021-02-06 23:06:06-0500: Game loop thread 24 terminating
+2021-02-06 23:06:06-0500: Game loop thread 55 terminating
+2021-02-06 23:06:06-0500: Game loop thread 41 terminating
+2021-02-06 23:06:06-0500: Game loop thread 14 terminating
+2021-02-06 23:06:07-0500: Game loop thread 25 terminating
+2021-02-06 23:06:07-0500: Game loop thread 8 terminating
+2021-02-06 23:06:07-0500: Game loop thread 44 terminating
+2021-02-06 23:06:07-0500: Game loop thread 27 terminating
+2021-02-06 23:06:07-0500: Game loop thread 15 terminating
+2021-02-06 23:06:08-0500: Game loop thread 62 terminating
+2021-02-06 23:06:09-0500: Game loop thread 7 terminating
+2021-02-06 23:06:09-0500: Model loading loop thread terminating
+2021-02-06 23:06:11-0500: Data write loop finishing for neural net: random
+2021-02-06 23:06:11-0500: Final cleanup of net: /dev/null
+2021-02-06 23:06:11-0500: Final NN rows: 0
+2021-02-06 23:06:11-0500: Final NN batches: 0
+2021-02-06 23:06:11-0500: Final NN avg batch size: nan
+2021-02-06 23:06:12-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:06:12-0500: All cleaned up, quitting
+2021-02-06 23:08:05-0500: Self Play Engine starting...
+2021-02-06 23:08:05-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:08:05-0500: Loaded all config stuff, starting self play
+2021-02-06 23:08:05-0500: Found new neural net random
+2021-02-06 23:08:05-0500: nnRandSeed0 = 11328097315083479570
+2021-02-06 23:08:05-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:08:05-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:08:05-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:08:05-0500: Data write loop starting for neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 10 games with random
+2021-02-06 23:08:05-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 20 games with random
+2021-02-06 23:08:05-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 30 games with random
+2021-02-06 23:08:05-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Model loading loop thread starting
+2021-02-06 23:08:05-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 40 games with random
+2021-02-06 23:08:05-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 50 games with random
+2021-02-06 23:08:05-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Started 60 games with random
+2021-02-06 23:08:05-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:08:05-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:08:13-0500: Game loop thread 11 terminating
+2021-02-06 23:08:15-0500: Game loop thread 60 terminating
+2021-02-06 23:08:20-0500: Game loop thread 52 terminating
+2021-02-06 23:08:20-0500: Game loop thread 33 terminating
+2021-02-06 23:08:23-0500: Game loop thread 63 terminating
+2021-02-06 23:08:25-0500: Game loop thread 9 terminating
+2021-02-06 23:08:26-0500: Game loop thread 48 terminating
+2021-02-06 23:08:27-0500: Game loop thread 1 terminating
+2021-02-06 23:08:27-0500: Game loop thread 36 terminating
+2021-02-06 23:08:28-0500: Game loop thread 45 terminating
+2021-02-06 23:08:29-0500: Game loop thread 5 terminating
+2021-02-06 23:08:29-0500: Game loop thread 22 terminating
+2021-02-06 23:08:31-0500: Game loop thread 20 terminating
+2021-02-06 23:08:33-0500: Game loop thread 35 terminating
+2021-02-06 23:08:33-0500: Game loop thread 62 terminating
+2021-02-06 23:08:35-0500: Game loop thread 38 terminating
+2021-02-06 23:08:36-0500: Game loop thread 46 terminating
+2021-02-06 23:08:37-0500: Game loop thread 43 terminating
+2021-02-06 23:08:38-0500: Game loop thread 37 terminating
+2021-02-06 23:08:38-0500: Game loop thread 50 terminating
+2021-02-06 23:08:38-0500: Game loop thread 44 terminating
+2021-02-06 23:08:39-0500: Game loop thread 21 terminating
+2021-02-06 23:08:39-0500: Game loop thread 56 terminating
+2021-02-06 23:08:39-0500: Game loop thread 2 terminating
+2021-02-06 23:08:40-0500: Game loop thread 61 terminating
+2021-02-06 23:08:41-0500: Game loop thread 15 terminating
+2021-02-06 23:08:42-0500: Game loop thread 39 terminating
+2021-02-06 23:08:43-0500: Game loop thread 58 terminating
+2021-02-06 23:08:43-0500: Game loop thread 34 terminating
+2021-02-06 23:08:43-0500: Game loop thread 13 terminating
+2021-02-06 23:08:43-0500: Game loop thread 51 terminating
+2021-02-06 23:08:44-0500: Game loop thread 16 terminating
+2021-02-06 23:08:44-0500: Game loop thread 19 terminating
+2021-02-06 23:08:44-0500: Game loop thread 3 terminating
+2021-02-06 23:08:44-0500: Game loop thread 7 terminating
+2021-02-06 23:08:44-0500: Game loop thread 41 terminating
+2021-02-06 23:08:45-0500: Game loop thread 23 terminating
+2021-02-06 23:08:45-0500: Game loop thread 54 terminating
+2021-02-06 23:08:46-0500: Game loop thread 40 terminating
+2021-02-06 23:08:46-0500: Game loop thread 42 terminating
+2021-02-06 23:08:46-0500: Game loop thread 32 terminating
+2021-02-06 23:08:47-0500: Game loop thread 18 terminating
+2021-02-06 23:08:47-0500: Game loop thread 29 terminating
+2021-02-06 23:08:47-0500: Game loop thread 24 terminating
+2021-02-06 23:08:47-0500: Game loop thread 26 terminating
+2021-02-06 23:08:48-0500: Game loop thread 53 terminating
+2021-02-06 23:08:48-0500: Game loop thread 27 terminating
+2021-02-06 23:08:48-0500: Game loop thread 49 terminating
+2021-02-06 23:08:48-0500: Game loop thread 10 terminating
+2021-02-06 23:08:49-0500: Game loop thread 28 terminating
+2021-02-06 23:08:49-0500: Game loop thread 47 terminating
+2021-02-06 23:08:50-0500: Game loop thread 55 terminating
+2021-02-06 23:08:50-0500: Game loop thread 57 terminating
+2021-02-06 23:08:51-0500: Game loop thread 8 terminating
+2021-02-06 23:08:51-0500: Game loop thread 6 terminating
+2021-02-06 23:08:52-0500: Game loop thread 12 terminating
+2021-02-06 23:08:52-0500: Game loop thread 4 terminating
+2021-02-06 23:08:52-0500: Game loop thread 25 terminating
+2021-02-06 23:08:53-0500: Game loop thread 0 terminating
+2021-02-06 23:08:53-0500: Game loop thread 59 terminating
+2021-02-06 23:08:53-0500: Game loop thread 31 terminating
+2021-02-06 23:08:53-0500: Game loop thread 17 terminating
+2021-02-06 23:08:53-0500: Game loop thread 30 terminating
+2021-02-06 23:08:54-0500: Game loop thread 14 terminating
+2021-02-06 23:08:54-0500: Model loading loop thread terminating
+2021-02-06 23:08:56-0500: Data write loop finishing for neural net: random
+2021-02-06 23:08:56-0500: Final cleanup of net: /dev/null
+2021-02-06 23:08:56-0500: Final NN rows: 0
+2021-02-06 23:08:56-0500: Final NN batches: 0
+2021-02-06 23:08:56-0500: Final NN avg batch size: nan
+2021-02-06 23:08:57-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:08:57-0500: All cleaned up, quitting
+2021-02-06 23:10:54-0500: Self Play Engine starting...
+2021-02-06 23:10:54-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:10:54-0500: Loaded all config stuff, starting self play
+2021-02-06 23:10:54-0500: Found new neural net random
+2021-02-06 23:10:54-0500: nnRandSeed0 = 12295506165927435631
+2021-02-06 23:10:54-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:10:55-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:10:55-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:10:55-0500: Data write loop starting for neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 10 games with random
+2021-02-06 23:10:55-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 20 games with random
+2021-02-06 23:10:55-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 30 games with random
+2021-02-06 23:10:55-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 40 games with random
+2021-02-06 23:10:55-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Model loading loop thread starting
+2021-02-06 23:10:55-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 50 games with random
+2021-02-06 23:10:55-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Started 60 games with random
+2021-02-06 23:10:55-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:10:55-0500: Game loop thread 22 terminating
+2021-02-06 23:10:58-0500: Game loop thread 50 terminating
+2021-02-06 23:11:06-0500: Game loop thread 0 terminating
+2021-02-06 23:11:06-0500: Game loop thread 63 terminating
+2021-02-06 23:11:07-0500: Game loop thread 25 terminating
+2021-02-06 23:11:07-0500: Game loop thread 2 terminating
+2021-02-06 23:11:09-0500: Game loop thread 41 terminating
+2021-02-06 23:11:10-0500: Game loop thread 28 terminating
+2021-02-06 23:11:11-0500: Game loop thread 53 terminating
+2021-02-06 23:11:11-0500: Game loop thread 39 terminating
+2021-02-06 23:11:12-0500: Game loop thread 56 terminating
+2021-02-06 23:11:13-0500: Game loop thread 34 terminating
+2021-02-06 23:11:13-0500: Game loop thread 12 terminating
+2021-02-06 23:11:14-0500: Game loop thread 45 terminating
+2021-02-06 23:11:14-0500: Game loop thread 49 terminating
+2021-02-06 23:11:14-0500: Game loop thread 11 terminating
+2021-02-06 23:11:15-0500: Game loop thread 60 terminating
+2021-02-06 23:11:15-0500: Game loop thread 30 terminating
+2021-02-06 23:11:16-0500: Game loop thread 9 terminating
+2021-02-06 23:11:16-0500: Game loop thread 52 terminating
+2021-02-06 23:11:18-0500: Game loop thread 13 terminating
+2021-02-06 23:11:19-0500: Game loop thread 20 terminating
+2021-02-06 23:11:19-0500: Game loop thread 14 terminating
+2021-02-06 23:11:19-0500: Game loop thread 57 terminating
+2021-02-06 23:11:20-0500: Game loop thread 21 terminating
+2021-02-06 23:11:20-0500: Game loop thread 1 terminating
+2021-02-06 23:11:20-0500: Game loop thread 16 terminating
+2021-02-06 23:11:20-0500: Game loop thread 8 terminating
+2021-02-06 23:11:20-0500: Game loop thread 36 terminating
+2021-02-06 23:11:21-0500: Game loop thread 5 terminating
+2021-02-06 23:11:22-0500: Game loop thread 10 terminating
+2021-02-06 23:11:23-0500: Game loop thread 29 terminating
+2021-02-06 23:11:23-0500: Game loop thread 38 terminating
+2021-02-06 23:11:24-0500: Game loop thread 42 terminating
+2021-02-06 23:11:24-0500: Game loop thread 24 terminating
+2021-02-06 23:11:24-0500: Game loop thread 59 terminating
+2021-02-06 23:11:25-0500: Game loop thread 27 terminating
+2021-02-06 23:11:25-0500: Game loop thread 18 terminating
+2021-02-06 23:11:26-0500: Game loop thread 7 terminating
+2021-02-06 23:11:27-0500: Game loop thread 54 terminating
+2021-02-06 23:11:27-0500: Game loop thread 3 terminating
+2021-02-06 23:11:27-0500: Game loop thread 23 terminating
+2021-02-06 23:11:28-0500: Game loop thread 44 terminating
+2021-02-06 23:11:28-0500: Game loop thread 4 terminating
+2021-02-06 23:11:29-0500: Game loop thread 47 terminating
+2021-02-06 23:11:29-0500: Game loop thread 58 terminating
+2021-02-06 23:11:29-0500: Game loop thread 43 terminating
+2021-02-06 23:11:31-0500: Game loop thread 37 terminating
+2021-02-06 23:11:31-0500: Game loop thread 55 terminating
+2021-02-06 23:11:31-0500: Game loop thread 48 terminating
+2021-02-06 23:11:31-0500: Game loop thread 46 terminating
+2021-02-06 23:11:32-0500: Game loop thread 17 terminating
+2021-02-06 23:11:32-0500: Game loop thread 62 terminating
+2021-02-06 23:11:33-0500: Game loop thread 40 terminating
+2021-02-06 23:11:33-0500: Game loop thread 26 terminating
+2021-02-06 23:11:34-0500: Game loop thread 19 terminating
+2021-02-06 23:11:35-0500: Game loop thread 61 terminating
+2021-02-06 23:11:35-0500: Game loop thread 15 terminating
+2021-02-06 23:11:36-0500: Game loop thread 32 terminating
+2021-02-06 23:11:36-0500: Game loop thread 31 terminating
+2021-02-06 23:11:36-0500: Game loop thread 6 terminating
+2021-02-06 23:11:36-0500: Game loop thread 33 terminating
+2021-02-06 23:11:37-0500: Game loop thread 51 terminating
+2021-02-06 23:11:37-0500: Game loop thread 35 terminating
+2021-02-06 23:11:37-0500: Model loading loop thread terminating
+2021-02-06 23:11:39-0500: Data write loop finishing for neural net: random
+2021-02-06 23:11:39-0500: Final cleanup of net: /dev/null
+2021-02-06 23:11:39-0500: Final NN rows: 0
+2021-02-06 23:11:39-0500: Final NN batches: 0
+2021-02-06 23:11:39-0500: Final NN avg batch size: nan
+2021-02-06 23:11:40-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:11:40-0500: All cleaned up, quitting
+2021-02-06 23:16:22-0500: Self Play Engine starting...
+2021-02-06 23:16:22-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:16:22-0500: Loaded all config stuff, starting self play
+2021-02-06 23:16:22-0500: Found new neural net random
+2021-02-06 23:16:22-0500: nnRandSeed0 = 18144975677256718447
+2021-02-06 23:16:22-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:16:22-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:16:22-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:16:22-0500: Data write loop starting for neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 10 games with random
+2021-02-06 23:16:22-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 20 games with random
+2021-02-06 23:16:22-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 30 games with random
+2021-02-06 23:16:22-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 40 games with random
+2021-02-06 23:16:22-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 50 games with random
+2021-02-06 23:16:22-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Model loading loop thread starting
+2021-02-06 23:16:22-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Started 60 games with random
+2021-02-06 23:16:22-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:16:22-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:16:25-0500: Game loop thread 44 terminating
+2021-02-06 23:16:40-0500: Game loop thread 0 terminating
+2021-02-06 23:16:41-0500: Game loop thread 4 terminating
+2021-02-06 23:16:42-0500: Game loop thread 13 terminating
+2021-02-06 23:16:43-0500: Game loop thread 43 terminating
+2021-02-06 23:16:44-0500: Game loop thread 6 terminating
+2021-02-06 23:16:44-0500: Game loop thread 28 terminating
+2021-02-06 23:16:44-0500: Game loop thread 25 terminating
+2021-02-06 23:16:45-0500: Game loop thread 8 terminating
+2021-02-06 23:16:45-0500: Game loop thread 9 terminating
+2021-02-06 23:16:46-0500: Game loop thread 12 terminating
+2021-02-06 23:16:47-0500: Game loop thread 32 terminating
+2021-02-06 23:16:48-0500: Game loop thread 2 terminating
+2021-02-06 23:16:48-0500: Game loop thread 59 terminating
+2021-02-06 23:16:48-0500: Game loop thread 17 terminating
+2021-02-06 23:16:48-0500: Game loop thread 30 terminating
+2021-02-06 23:16:48-0500: Game loop thread 36 terminating
+2021-02-06 23:16:49-0500: Game loop thread 55 terminating
+2021-02-06 23:16:50-0500: Game loop thread 16 terminating
+2021-02-06 23:16:50-0500: Game loop thread 57 terminating
+2021-02-06 23:16:52-0500: Game loop thread 47 terminating
+2021-02-06 23:16:52-0500: Game loop thread 26 terminating
+2021-02-06 23:16:53-0500: Game loop thread 7 terminating
+2021-02-06 23:16:54-0500: Game loop thread 54 terminating
+2021-02-06 23:16:55-0500: Game loop thread 34 terminating
+2021-02-06 23:16:56-0500: Game loop thread 39 terminating
+2021-02-06 23:16:56-0500: Game loop thread 58 terminating
+2021-02-06 23:16:56-0500: Game loop thread 56 terminating
+2021-02-06 23:16:57-0500: Game loop thread 21 terminating
+2021-02-06 23:16:57-0500: Game loop thread 27 terminating
+2021-02-06 23:16:58-0500: Game loop thread 22 terminating
+2021-02-06 23:16:58-0500: Game loop thread 40 terminating
+2021-02-06 23:16:58-0500: Game loop thread 63 terminating
+2021-02-06 23:16:58-0500: Game loop thread 1 terminating
+2021-02-06 23:16:58-0500: Game loop thread 51 terminating
+2021-02-06 23:16:58-0500: Game loop thread 35 terminating
+2021-02-06 23:16:59-0500: Game loop thread 61 terminating
+2021-02-06 23:16:59-0500: Game loop thread 38 terminating
+2021-02-06 23:16:59-0500: Game loop thread 23 terminating
+2021-02-06 23:17:00-0500: Game loop thread 37 terminating
+2021-02-06 23:17:01-0500: Game loop thread 49 terminating
+2021-02-06 23:17:01-0500: Game loop thread 11 terminating
+2021-02-06 23:17:02-0500: Game loop thread 20 terminating
+2021-02-06 23:17:02-0500: Game loop thread 50 terminating
+2021-02-06 23:17:02-0500: Game loop thread 62 terminating
+2021-02-06 23:17:04-0500: Game loop thread 10 terminating
+2021-02-06 23:17:04-0500: Game loop thread 46 terminating
+2021-02-06 23:17:04-0500: Game loop thread 31 terminating
+2021-02-06 23:17:04-0500: Game loop thread 41 terminating
+2021-02-06 23:17:05-0500: Game loop thread 15 terminating
+2021-02-06 23:17:05-0500: Game loop thread 14 terminating
+2021-02-06 23:17:05-0500: Game loop thread 5 terminating
+2021-02-06 23:17:05-0500: Game loop thread 45 terminating
+2021-02-06 23:17:05-0500: Game loop thread 48 terminating
+2021-02-06 23:17:05-0500: Game loop thread 19 terminating
+2021-02-06 23:17:06-0500: Game loop thread 60 terminating
+2021-02-06 23:17:06-0500: Game loop thread 3 terminating
+2021-02-06 23:17:06-0500: Game loop thread 29 terminating
+2021-02-06 23:17:07-0500: Game loop thread 24 terminating
+2021-02-06 23:17:07-0500: Game loop thread 42 terminating
+2021-02-06 23:17:07-0500: Game loop thread 33 terminating
+2021-02-06 23:17:07-0500: Game loop thread 52 terminating
+2021-02-06 23:17:08-0500: Game loop thread 53 terminating
+2021-02-06 23:17:08-0500: Game loop thread 18 terminating
+2021-02-06 23:17:08-0500: Model loading loop thread terminating
+2021-02-06 23:17:09-0500: Data write loop finishing for neural net: random
+2021-02-06 23:17:09-0500: Final cleanup of net: /dev/null
+2021-02-06 23:17:09-0500: Final NN rows: 0
+2021-02-06 23:17:09-0500: Final NN batches: 0
+2021-02-06 23:17:09-0500: Final NN avg batch size: nan
+2021-02-06 23:17:10-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:17:10-0500: All cleaned up, quitting
+2021-02-06 23:20:52-0500: Self Play Engine starting...
+2021-02-06 23:20:52-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:20:52-0500: Loaded all config stuff, starting self play
+2021-02-06 23:20:52-0500: Found new neural net random
+2021-02-06 23:20:52-0500: nnRandSeed0 = 5205490478976371042
+2021-02-06 23:20:52-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:20:52-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:20:52-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:20:52-0500: Data write loop starting for neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 10 games with random
+2021-02-06 23:20:52-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 20 games with random
+2021-02-06 23:20:52-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 30 games with random
+2021-02-06 23:20:52-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Model loading loop thread starting
+2021-02-06 23:20:52-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 40 games with random
+2021-02-06 23:20:52-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 50 games with random
+2021-02-06 23:20:52-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Started 60 games with random
+2021-02-06 23:20:52-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:20:52-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:20:55-0500: Game loop thread 39 terminating
+2021-02-06 23:21:06-0500: Game loop thread 29 terminating
+2021-02-06 23:21:07-0500: Game loop thread 7 terminating
+2021-02-06 23:21:07-0500: Game loop thread 3 terminating
+2021-02-06 23:21:07-0500: Game loop thread 16 terminating
+2021-02-06 23:21:09-0500: Game loop thread 23 terminating
+2021-02-06 23:21:09-0500: Game loop thread 44 terminating
+2021-02-06 23:21:10-0500: Game loop thread 45 terminating
+2021-02-06 23:21:10-0500: Game loop thread 46 terminating
+2021-02-06 23:21:11-0500: Game loop thread 8 terminating
+2021-02-06 23:21:12-0500: Game loop thread 62 terminating
+2021-02-06 23:21:13-0500: Game loop thread 33 terminating
+2021-02-06 23:21:13-0500: Game loop thread 48 terminating
+2021-02-06 23:21:14-0500: Game loop thread 17 terminating
+2021-02-06 23:21:15-0500: Game loop thread 0 terminating
+2021-02-06 23:21:15-0500: Game loop thread 58 terminating
+2021-02-06 23:21:16-0500: Game loop thread 42 terminating
+2021-02-06 23:21:16-0500: Game loop thread 24 terminating
+2021-02-06 23:21:16-0500: Game loop thread 57 terminating
+2021-02-06 23:21:20-0500: Game loop thread 31 terminating
+2021-02-06 23:21:21-0500: Game loop thread 47 terminating
+2021-02-06 23:21:21-0500: Game loop thread 40 terminating
+2021-02-06 23:21:22-0500: Game loop thread 36 terminating
+2021-02-06 23:21:24-0500: Game loop thread 13 terminating
+2021-02-06 23:21:25-0500: Game loop thread 51 terminating
+2021-02-06 23:21:26-0500: Game loop thread 22 terminating
+2021-02-06 23:21:28-0500: Game loop thread 11 terminating
+2021-02-06 23:21:29-0500: Game loop thread 53 terminating
+2021-02-06 23:21:29-0500: Game loop thread 20 terminating
+2021-02-06 23:21:29-0500: Game loop thread 27 terminating
+2021-02-06 23:21:29-0500: Game loop thread 59 terminating
+2021-02-06 23:21:30-0500: Game loop thread 21 terminating
+2021-02-06 23:21:30-0500: Game loop thread 50 terminating
+2021-02-06 23:21:31-0500: Game loop thread 18 terminating
+2021-02-06 23:21:31-0500: Game loop thread 12 terminating
+2021-02-06 23:21:32-0500: Game loop thread 52 terminating
+2021-02-06 23:21:32-0500: Game loop thread 6 terminating
+2021-02-06 23:21:32-0500: Game loop thread 30 terminating
+2021-02-06 23:21:32-0500: Game loop thread 43 terminating
+2021-02-06 23:21:32-0500: Game loop thread 55 terminating
+2021-02-06 23:21:33-0500: Game loop thread 61 terminating
+2021-02-06 23:21:34-0500: Game loop thread 60 terminating
+2021-02-06 23:21:34-0500: Game loop thread 63 terminating
+2021-02-06 23:21:34-0500: Game loop thread 19 terminating
+2021-02-06 23:21:34-0500: Game loop thread 10 terminating
+2021-02-06 23:21:34-0500: Game loop thread 14 terminating
+2021-02-06 23:21:35-0500: Game loop thread 38 terminating
+2021-02-06 23:21:35-0500: Game loop thread 2 terminating
+2021-02-06 23:21:36-0500: Game loop thread 34 terminating
+2021-02-06 23:21:36-0500: Game loop thread 56 terminating
+2021-02-06 23:21:36-0500: Game loop thread 4 terminating
+2021-02-06 23:21:36-0500: Game loop thread 49 terminating
+2021-02-06 23:21:36-0500: Game loop thread 37 terminating
+2021-02-06 23:21:36-0500: Game loop thread 35 terminating
+2021-02-06 23:21:38-0500: Game loop thread 25 terminating
+2021-02-06 23:21:39-0500: Game loop thread 5 terminating
+2021-02-06 23:21:39-0500: Game loop thread 9 terminating
+2021-02-06 23:21:39-0500: Game loop thread 41 terminating
+2021-02-06 23:21:40-0500: Game loop thread 28 terminating
+2021-02-06 23:21:40-0500: Game loop thread 15 terminating
+2021-02-06 23:21:40-0500: Game loop thread 26 terminating
+2021-02-06 23:21:40-0500: Game loop thread 32 terminating
+2021-02-06 23:21:41-0500: Game loop thread 54 terminating
+2021-02-06 23:21:46-0500: Game loop thread 1 terminating
+2021-02-06 23:21:46-0500: Model loading loop thread terminating
+2021-02-06 23:21:48-0500: Data write loop finishing for neural net: random
+2021-02-06 23:21:48-0500: Final cleanup of net: /dev/null
+2021-02-06 23:21:48-0500: Final NN rows: 0
+2021-02-06 23:21:48-0500: Final NN batches: 0
+2021-02-06 23:21:48-0500: Final NN avg batch size: nan
+2021-02-06 23:21:49-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:21:49-0500: All cleaned up, quitting
+2021-02-06 23:23:31-0500: Self Play Engine starting...
+2021-02-06 23:23:31-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:23:31-0500: Loaded all config stuff, starting self play
+2021-02-06 23:23:31-0500: Found new neural net random
+2021-02-06 23:23:31-0500: nnRandSeed0 = 16565226308740420033
+2021-02-06 23:23:31-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:23:32-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:23:32-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:23:32-0500: Data write loop starting for neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 10 games with random
+2021-02-06 23:23:32-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 20 games with random
+2021-02-06 23:23:32-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 30 games with random
+2021-02-06 23:23:32-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 40 games with random
+2021-02-06 23:23:32-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Model loading loop thread starting
+2021-02-06 23:23:32-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 50 games with random
+2021-02-06 23:23:32-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Started 60 games with random
+2021-02-06 23:23:32-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:23:32-0500: Game loop thread 55 terminating
+2021-02-06 23:23:43-0500: Game loop thread 36 terminating
+2021-02-06 23:23:47-0500: Game loop thread 10 terminating
+2021-02-06 23:23:47-0500: Game loop thread 38 terminating
+2021-02-06 23:23:50-0500: Game loop thread 58 terminating
+2021-02-06 23:23:51-0500: Game loop thread 8 terminating
+2021-02-06 23:23:52-0500: Game loop thread 46 terminating
+2021-02-06 23:23:52-0500: Game loop thread 13 terminating
+2021-02-06 23:23:54-0500: Game loop thread 56 terminating
+2021-02-06 23:23:54-0500: Game loop thread 0 terminating
+2021-02-06 23:23:54-0500: Game loop thread 33 terminating
+2021-02-06 23:23:54-0500: Game loop thread 40 terminating
+2021-02-06 23:23:55-0500: Game loop thread 21 terminating
+2021-02-06 23:23:56-0500: Game loop thread 3 terminating
+2021-02-06 23:23:56-0500: Game loop thread 62 terminating
+2021-02-06 23:23:57-0500: Game loop thread 57 terminating
+2021-02-06 23:23:59-0500: Game loop thread 22 terminating
+2021-02-06 23:24:02-0500: Game loop thread 14 terminating
+2021-02-06 23:24:04-0500: Game loop thread 63 terminating
+2021-02-06 23:24:05-0500: Game loop thread 61 terminating
+2021-02-06 23:24:05-0500: Game loop thread 1 terminating
+2021-02-06 23:24:05-0500: Game loop thread 54 terminating
+2021-02-06 23:24:05-0500: Game loop thread 30 terminating
+2021-02-06 23:24:05-0500: Game loop thread 47 terminating
+2021-02-06 23:24:06-0500: Game loop thread 16 terminating
+2021-02-06 23:24:07-0500: Game loop thread 18 terminating
+2021-02-06 23:24:09-0500: Game loop thread 25 terminating
+2021-02-06 23:24:09-0500: Game loop thread 9 terminating
+2021-02-06 23:24:09-0500: Game loop thread 44 terminating
+2021-02-06 23:24:10-0500: Game loop thread 23 terminating
+2021-02-06 23:24:10-0500: Game loop thread 26 terminating
+2021-02-06 23:24:11-0500: Game loop thread 6 terminating
+2021-02-06 23:24:11-0500: Game loop thread 24 terminating
+2021-02-06 23:24:13-0500: Game loop thread 43 terminating
+2021-02-06 23:24:14-0500: Game loop thread 29 terminating
+2021-02-06 23:24:14-0500: Game loop thread 34 terminating
+2021-02-06 23:24:14-0500: Game loop thread 19 terminating
+2021-02-06 23:24:15-0500: Game loop thread 7 terminating
+2021-02-06 23:24:15-0500: Game loop thread 39 terminating
+2021-02-06 23:24:16-0500: Game loop thread 42 terminating
+2021-02-06 23:24:16-0500: Game loop thread 59 terminating
+2021-02-06 23:24:16-0500: Game loop thread 17 terminating
+2021-02-06 23:24:16-0500: Game loop thread 50 terminating
+2021-02-06 23:24:16-0500: Game loop thread 15 terminating
+2021-02-06 23:24:17-0500: Game loop thread 31 terminating
+2021-02-06 23:24:17-0500: Game loop thread 52 terminating
+2021-02-06 23:24:17-0500: Game loop thread 48 terminating
+2021-02-06 23:24:17-0500: Game loop thread 20 terminating
+2021-02-06 23:24:17-0500: Game loop thread 45 terminating
+2021-02-06 23:24:18-0500: Game loop thread 2 terminating
+2021-02-06 23:24:18-0500: Game loop thread 12 terminating
+2021-02-06 23:24:18-0500: Game loop thread 27 terminating
+2021-02-06 23:24:18-0500: Game loop thread 37 terminating
+2021-02-06 23:24:18-0500: Game loop thread 28 terminating
+2021-02-06 23:24:19-0500: Game loop thread 32 terminating
+2021-02-06 23:24:19-0500: Game loop thread 5 terminating
+2021-02-06 23:24:19-0500: Game loop thread 60 terminating
+2021-02-06 23:24:20-0500: Game loop thread 49 terminating
+2021-02-06 23:24:20-0500: Game loop thread 4 terminating
+2021-02-06 23:24:20-0500: Game loop thread 41 terminating
+2021-02-06 23:24:20-0500: Game loop thread 51 terminating
+2021-02-06 23:24:21-0500: Game loop thread 11 terminating
+2021-02-06 23:24:21-0500: Game loop thread 35 terminating
+2021-02-06 23:24:24-0500: Game loop thread 53 terminating
+2021-02-06 23:24:24-0500: Model loading loop thread terminating
+2021-02-06 23:24:25-0500: Data write loop finishing for neural net: random
+2021-02-06 23:24:25-0500: Final cleanup of net: /dev/null
+2021-02-06 23:24:25-0500: Final NN rows: 0
+2021-02-06 23:24:25-0500: Final NN batches: 0
+2021-02-06 23:24:25-0500: Final NN avg batch size: nan
+2021-02-06 23:24:26-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:24:26-0500: All cleaned up, quitting
+2021-02-06 23:41:02-0500: Self Play Engine starting...
+2021-02-06 23:41:02-0500: Git revision: 266281dffac6c7b80438c76f602b11585c6d4ca8-dirty
+2021-02-06 23:41:02-0500: Loaded all config stuff, starting self play
+2021-02-06 23:41:02-0500: Found new neural net random
+2021-02-06 23:41:02-0500: nnRandSeed0 = 17771947531089193229
+2021-02-06 23:41:02-0500: After dedups: nnModelFile0 = /dev/null useFP16 auto useNHWC auto
+2021-02-06 23:41:02-0500: Loaded latest neural net random from: /dev/null
+2021-02-06 23:41:02-0500: Model loading loop thread loaded new neural net random
+2021-02-06 23:41:02-0500: Data write loop starting for neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 1 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 3 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 0 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 6 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 5 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 4 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 2 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 8 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 9 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 7 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 10 games with random
+2021-02-06 23:41:02-0500: Game loop thread 20 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 21 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 11 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 22 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 23 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 24 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 25 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 26 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 27 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 28 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 20 games with random
+2021-02-06 23:41:02-0500: Game loop thread 29 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 30 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 31 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 32 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 33 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 34 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 35 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 40 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 54 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 12 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 30 games with random
+2021-02-06 23:41:02-0500: Game loop thread 16 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 15 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 37 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 36 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 61 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 46 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 41 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 47 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 44 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 62 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 40 games with random
+2021-02-06 23:41:02-0500: Game loop thread 48 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 51 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 52 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 45 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 56 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 53 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 42 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 10 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Model loading loop thread starting
+2021-02-06 23:41:02-0500: Game loop thread 63 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 13 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 50 games with random
+2021-02-06 23:41:02-0500: Game loop thread 43 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 19 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 18 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 60 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 58 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 57 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 39 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 17 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 14 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 59 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Started 60 games with random
+2021-02-06 23:41:02-0500: Game loop thread 38 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 50 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 55 starting game on new neural net: random
+2021-02-06 23:41:02-0500: Game loop thread 49 starting game on new neural net: random
+2021-02-06 23:41:09-0500: Game loop thread 11 terminating
+2021-02-06 23:41:09-0500: Game loop thread 42 terminating
+2021-02-06 23:41:10-0500: Game loop thread 44 terminating
+2021-02-06 23:41:14-0500: Game loop thread 7 terminating
+2021-02-06 23:41:15-0500: Game loop thread 22 terminating
+2021-02-06 23:41:16-0500: Game loop thread 54 terminating
+2021-02-06 23:41:18-0500: Game loop thread 37 terminating
+2021-02-06 23:41:20-0500: Game loop thread 25 terminating
+2021-02-06 23:41:22-0500: Game loop thread 60 terminating
+2021-02-06 23:41:22-0500: Game loop thread 5 terminating
+2021-02-06 23:41:22-0500: Game loop thread 1 terminating
+2021-02-06 23:41:23-0500: Game loop thread 49 terminating
+2021-02-06 23:41:23-0500: Game loop thread 34 terminating
+2021-02-06 23:41:24-0500: Game loop thread 40 terminating
+2021-02-06 23:41:25-0500: Game loop thread 35 terminating
+2021-02-06 23:41:25-0500: Game loop thread 53 terminating
+2021-02-06 23:41:25-0500: Game loop thread 8 terminating
+2021-02-06 23:41:26-0500: Game loop thread 51 terminating
+2021-02-06 23:41:27-0500: Game loop thread 46 terminating
+2021-02-06 23:41:27-0500: Game loop thread 26 terminating
+2021-02-06 23:41:28-0500: Game loop thread 0 terminating
+2021-02-06 23:41:28-0500: Game loop thread 21 terminating
+2021-02-06 23:41:31-0500: Game loop thread 50 terminating
+2021-02-06 23:41:31-0500: Game loop thread 57 terminating
+2021-02-06 23:41:31-0500: Game loop thread 63 terminating
+2021-02-06 23:41:33-0500: Game loop thread 10 terminating
+2021-02-06 23:41:33-0500: Game loop thread 48 terminating
+2021-02-06 23:41:34-0500: Game loop thread 41 terminating
+2021-02-06 23:41:35-0500: Game loop thread 59 terminating
+2021-02-06 23:41:35-0500: Game loop thread 16 terminating
+2021-02-06 23:41:36-0500: Game loop thread 3 terminating
+2021-02-06 23:41:37-0500: Game loop thread 47 terminating
+2021-02-06 23:41:37-0500: Game loop thread 29 terminating
+2021-02-06 23:41:38-0500: Game loop thread 28 terminating
+2021-02-06 23:41:38-0500: Game loop thread 23 terminating
+2021-02-06 23:41:39-0500: Game loop thread 24 terminating
+2021-02-06 23:41:39-0500: Game loop thread 43 terminating
+2021-02-06 23:41:40-0500: Game loop thread 27 terminating
+2021-02-06 23:41:41-0500: Game loop thread 4 terminating
+2021-02-06 23:41:41-0500: Game loop thread 56 terminating
+2021-02-06 23:41:42-0500: Game loop thread 55 terminating
+2021-02-06 23:41:42-0500: Game loop thread 14 terminating
+2021-02-06 23:41:43-0500: Game loop thread 2 terminating
+2021-02-06 23:41:43-0500: Game loop thread 13 terminating
+2021-02-06 23:41:43-0500: Game loop thread 30 terminating
+2021-02-06 23:41:43-0500: Game loop thread 15 terminating
+2021-02-06 23:41:43-0500: Game loop thread 6 terminating
+2021-02-06 23:41:43-0500: Game loop thread 9 terminating
+2021-02-06 23:41:43-0500: Game loop thread 61 terminating
+2021-02-06 23:41:44-0500: Game loop thread 19 terminating
+2021-02-06 23:41:44-0500: Game loop thread 32 terminating
+2021-02-06 23:41:46-0500: Game loop thread 31 terminating
+2021-02-06 23:41:46-0500: Game loop thread 45 terminating
+2021-02-06 23:41:47-0500: Game loop thread 18 terminating
+2021-02-06 23:41:47-0500: Game loop thread 20 terminating
+2021-02-06 23:41:47-0500: Game loop thread 36 terminating
+2021-02-06 23:41:48-0500: Game loop thread 12 terminating
+2021-02-06 23:41:49-0500: Game loop thread 39 terminating
+2021-02-06 23:41:49-0500: Game loop thread 33 terminating
+2021-02-06 23:41:49-0500: Game loop thread 58 terminating
+2021-02-06 23:41:50-0500: Game loop thread 62 terminating
+2021-02-06 23:41:50-0500: Game loop thread 52 terminating
+2021-02-06 23:41:50-0500: Game loop thread 38 terminating
+2021-02-06 23:41:50-0500: Game loop thread 17 terminating
+2021-02-06 23:41:50-0500: Model loading loop thread terminating
+2021-02-06 23:41:52-0500: Data write loop finishing for neural net: random
+2021-02-06 23:41:52-0500: Final cleanup of net: /dev/null
+2021-02-06 23:41:52-0500: Final NN rows: 0
+2021-02-06 23:41:52-0500: Final NN batches: 0
+2021-02-06 23:41:52-0500: Final NN avg batch size: nan
+2021-02-06 23:41:53-0500: Data write loop cleaned up and terminating for random
+2021-02-06 23:41:53-0500: All cleaned up, quitting
