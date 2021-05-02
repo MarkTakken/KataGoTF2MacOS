@@ -24,6 +24,8 @@ from model import Model, Target_vars, Metrics, ModelUtils
 import modelconfigs
 import tfrecordio
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 tf.compat.v1.disable_eager_execution()
 
 #Command and args-------------------------------------------------------------------
@@ -239,7 +241,7 @@ def model_fn(features,labels,mode,params):
 
   if mode == tf.estimator.ModeKeys.EVAL:
     (model,target_vars,metrics) = built
-    wsum = tf.Variable(
+    wsum = tf.compat.v1.Variable(
       0.0,dtype=tf.float32,name="wsum",trainable=False,
       collections=[tf.compat.v1.GraphKeys.LOCAL_VARIABLES, tf.compat.v1.GraphKeys.METRIC_VARIABLES],
       synchronization=tf.VariableSynchronization.ON_READ,
@@ -397,7 +399,7 @@ def model_fn(features,labels,mode,params):
           break
       if checkpoint_path is not None:
         print("Initial weights checkpoint to use found at: " + checkpoint_path)
-        vars_in_checkpoint = tf.contrib.framework.list_variables(checkpoint_path)
+        vars_in_checkpoint = tf.train.list_variables(checkpoint_path) #tf.contrib.framework.list_variables(checkpoint_path)
         varname_in_checkpoint = {}
         print("Checkpoint contains:")
         for varandshape in vars_in_checkpoint:

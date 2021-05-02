@@ -1,12 +1,23 @@
 import tensorflow as tf
+import sys
 
 from model import Model
+
+tf.compat.v1.disable_eager_execution()
 
 # Construct a dictionary that tensorflow uses to know how to parse a tfrecord
 def make_raw_input_features(model_config,pos_len,batch_size):
   num_bin_input_features = Model.get_num_bin_input_features(model_config)
   num_global_input_features = Model.get_num_global_input_features(model_config)
-
+  print("\n====================\nDebugging checkpoint\n====================\n")
+  print(f'batch_size: {batch_size}')
+  print(f'num_global_input_features: {num_global_input_features}')
+  print(f'pos_len: {pos_len}')
+  print(f'Model.NUM_POLICY_TARGETS: {Model.NUM_POLICY_TARGETS}')
+  print(f'Model.NUM_GLOBAL_TARGETS: {Model.NUM_GLOBAL_TARGETS}')
+  print(f'Model.EXTRA_SCORE_DISTR_RADIUS: {Model.EXTRA_SCORE_DISTR_RADIUS}')
+  print(f'Model.NUM_VALUE_SPATIAL_TARGETS: {Model.NUM_VALUE_SPATIAL_TARGETS}')
+  print('\n')
   return {
     "binchwp": tf.io.FixedLenFeature([],tf.string),
     "ginc": tf.io.FixedLenFeature([batch_size*num_global_input_features],tf.float32),
@@ -15,7 +26,26 @@ def make_raw_input_features(model_config,pos_len,batch_size):
     "sdn": tf.io.FixedLenFeature([batch_size*(pos_len*pos_len*2+Model.EXTRA_SCORE_DISTR_RADIUS*2)],tf.float32),
     "vtnchw": tf.io.FixedLenFeature([batch_size*Model.NUM_VALUE_SPATIAL_TARGETS*pos_len*pos_len],tf.float32)
   }
-
+  """
+  return {
+    "binchwp": tf.io.FixedLenFeature([],tf.string),
+    "ginc": tf.io.FixedLenFeature([batch_size*num_global_input_features],tf.float32,default_value=tf.zeros([batch_size*num_global_input_features],tf.float32)),
+    "ptncm": tf.io.FixedLenFeature([batch_size*Model.NUM_POLICY_TARGETS*(pos_len*pos_len+1)],tf.float32,default_value=tf.zeros([batch_size*Model.NUM_POLICY_TARGETS*(pos_len*pos_len+1)],tf.float32)),
+    "gtnc": tf.io.FixedLenFeature([batch_size*Model.NUM_GLOBAL_TARGETS],tf.float32,default_value=tf.zeros([batch_size*Model.NUM_GLOBAL_TARGETS],tf.float32)),
+    "sdn": tf.io.FixedLenFeature([batch_size*(pos_len*pos_len*2+Model.EXTRA_SCORE_DISTR_RADIUS*2)],tf.float32,default_value=tf.zeros([batch_size*(pos_len*pos_len*2+Model.EXTRA_SCORE_DISTR_RADIUS*2)],tf.float32)),
+    "vtnchw": tf.io.FixedLenFeature([batch_size*Model.NUM_VALUE_SPATIAL_TARGETS*pos_len*pos_len],tf.float32,default_value=tf.zeros([batch_size*Model.NUM_VALUE_SPATIAL_TARGETS*pos_len*pos_len],tf.float32))
+  }
+  """
+  """
+  return {
+    "binchwp": tf.io.VarLenFeature(tf.string),
+    "ginc": tf.io.VarLenFeature(tf.float32),
+    "ptncm": tf.io.VarLenFeature(tf.float32),
+    "gtnc": tf.io.VarLenFeature(tf.float32),
+    "sdn": tf.io.VarLenFeature(tf.float32),
+    "vtnchw": tf.io.VarLenFeature(tf.float32)
+  }
+  """
 # Construct a dictionary of placeholders, in case we're using a feed_dict_like way of providing
 # training rows rather than via dataset
 def make_raw_input_feature_placeholders(model_config,pos_len,batch_size):
@@ -66,7 +96,6 @@ def make_tf_record_parser(model_config,pos_len,batch_size,multi_num_gpus=None):
         "sdn": tf.reshape(sdn,[multi_num_gpus,instance_batch_size,pos_len*pos_len*2+Model.EXTRA_SCORE_DISTR_RADIUS*2]),
         "vtnchw": tf.reshape(vtnchw,[multi_num_gpus,instance_batch_size,Model.NUM_VALUE_SPATIAL_TARGETS,pos_len,pos_len])
       }
-
   return parse_input
 
 # Create a tf.train.Example from the given start:stop interval of numpy arrays of data.

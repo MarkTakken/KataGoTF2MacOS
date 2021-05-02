@@ -1,5 +1,0 @@
-commit 266281dffac6c7b80438c76f602b11585c6d4ca8
-Author: David Wu <lightvector@gmail.com>
-Date:   Sat Jan 23 20:09:36 2021 +0000
-
-    Fix up readme
