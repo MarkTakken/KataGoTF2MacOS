@@ -5,6 +5,8 @@ import argparse
 import tensorflow as tf
 import numpy as np
 
+tf.compat.v1.disable_eager_execution()
+
 description = """
 Hacky script to inspect checkpoints
 """

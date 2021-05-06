@@ -18,6 +18,8 @@ from model import Model, Target_vars, Metrics, ModelUtils
 import common
 import tfrecordio
 
+tf.compat.v1.disable_eager_execution()
+
 #Command and args-------------------------------------------------------------------
 
 description = """

@@ -15,6 +15,8 @@ import numpy as np
 from model import Model, ModelUtils
 import common
 
+tf.compat.v1.disable_eager_execution()
+
 #Command and args-------------------------------------------------------------------
 
 description = """

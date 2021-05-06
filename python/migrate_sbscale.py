@@ -5,6 +5,8 @@ import argparse
 import tensorflow as tf
 import numpy as np
 
+tf.compat.v1.disable_eager_execution()
+
 description = """
 Hacky script to sbscale3/w equal to sb3/w for migrating a model to "use_fixed_sbscaling":True.
 Run on a model.ckpt-GLOBALSTEPNUMBER or similar checkpoint to produce a new one. Replace the old one with the new one after a backup.

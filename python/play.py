@@ -17,6 +17,8 @@ from board import Board
 from model import Model
 import common
 
+tf.compat.v1.disable_eager_execution()
+
 description = """
 Play go with a trained neural net!
 Implements a basic GTP engine that uses the neural net directly to play moves.

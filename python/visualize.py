@@ -17,6 +17,8 @@ from board import Board
 from model import Model
 import common
 
+tf.compat.v1.disable_eager_execution()
+
 #Command and args-------------------------------------------------------------------
 
 description = """
