@@ -217,7 +217,7 @@ Current fields are:
       * `scoreSelfplay` - The predicted average value of the final score of the game after this move during selfplay, in points. (NOTE: users should usually prefer scoreLead, since scoreSelfplay may be biased by the fact that KataGo isn't perfectly score-maximizing).
       * `prior` - The policy prior of the move, as a float in [0,1].
       * `utility` - The utility of the move, combining both winrate and score, as a float in [-C,C] where C is the maximum possible utility.
-      * `lcb` - The [LCB](https://github.com/leela-zero/leela-zero/issues/2282) of the move's winrate, as a float in [0,1].
+      * `lcb` - The [LCB](https://github.com/leela-zero/leela-zero/issues/2282) of the move's winrate. Has the same units as winrate, but might lie outside of [0,1] since the current implementation doesn't strictly account for the 0-1 bounds.
       * `utilityLcb` - The LCB of the move's utility.
       * `order` - KataGo's ranking of the move. 0 is the best, 1 is the next best, and so on.
       * `pv` - The principal variation following this move. May be of variable length or even empty.
@@ -242,7 +242,7 @@ Requests that KataGo report its current version. Required fields:
 
 Example:
 ```
-{"id":"foo","action":"query_verison"}
+{"id":"foo","action":"query_version"}
 ```
 
 The response to this query is to echo back a json object with exactly the same data and fields of the query, but with two additional fields:
@@ -252,7 +252,7 @@ The response to this query is to echo back a json object with exactly the same d
 
 Example:
 ```
-{"action":"query_verison","git_hash":"0b0c29750fd351a8364440a2c9c83dc50195c05b","id":"foo","version":"1.6.1"}
+{"action":"query_version","git_hash":"0b0c29750fd351a8364440a2c9c83dc50195c05b","id":"foo","version":"1.6.1"}
 ```
 
 ##### terminate
