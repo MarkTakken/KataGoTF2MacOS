@@ -9,15 +9,7 @@ tf.compat.v1.disable_eager_execution()
 def make_raw_input_features(model_config,pos_len,batch_size):
   num_bin_input_features = Model.get_num_bin_input_features(model_config)
   num_global_input_features = Model.get_num_global_input_features(model_config)
-  print("\n====================\nDebugging checkpoint\n====================\n")
-  print(f'batch_size: {batch_size}')
-  print(f'num_global_input_features: {num_global_input_features}')
-  print(f'pos_len: {pos_len}')
-  print(f'Model.NUM_POLICY_TARGETS: {Model.NUM_POLICY_TARGETS}')
-  print(f'Model.NUM_GLOBAL_TARGETS: {Model.NUM_GLOBAL_TARGETS}')
-  print(f'Model.EXTRA_SCORE_DISTR_RADIUS: {Model.EXTRA_SCORE_DISTR_RADIUS}')
-  print(f'Model.NUM_VALUE_SPATIAL_TARGETS: {Model.NUM_VALUE_SPATIAL_TARGETS}')
-  print('\n')
+  
   return {
     "binchwp": tf.io.FixedLenFeature([],tf.string),
     "ginc": tf.io.FixedLenFeature([batch_size*num_global_input_features],tf.float32),

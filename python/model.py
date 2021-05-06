@@ -6,6 +6,8 @@ import numpy as np
 
 from board import Board
 
+tf.compat.v1.disable_eager_execution()
+
 #Feature extraction functions-------------------------------------------------------------------
 
 class Model:
