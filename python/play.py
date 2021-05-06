@@ -624,8 +624,8 @@ def run_gtp(session):
 
 
   def add_extra_board_size_visualizations(layer_name, layer, normalization_div):
-    assert(layer.shape[1].value == board_size)
-    assert(layer.shape[2].value == board_size)
+    assert(layer.shape[1] == board_size)
+    assert(layer.shape[2] == board_size)
     num_channels = layer.shape[3].value
     for i in range(num_channels):
       command_name = layer_name + "-" + str(i)
