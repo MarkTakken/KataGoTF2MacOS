@@ -1,0 +1,47 @@
+diff --git a/cpp/configs/training/selfplay1.cfg b/cpp/configs/training/selfplay1.cfg
+index 71c47f44..b2ad91f7 100755
+--- a/cpp/configs/training/selfplay1.cfg
++++ b/cpp/configs/training/selfplay1.cfg
+@@ -55,13 +55,13 @@ compensateAfterPolicyInitProb = 0.2 # Additionally make komi fair this often aft
+ sidePositionProb = 0.020  # With this probability, train on refuting bad alternative moves.
+ 
+ cheapSearchProb = 0.75  # Do cheap searches with this probaiblity
+-cheapSearchVisits = 100  # Number of visits for cheap search
++cheapSearchVisits = 20 #100  # Number of visits for cheap search
+ cheapSearchTargetWeight = 0.0  # Training weight for cheap search
+ 
+ reduceVisits = true  # Reduce visits when one side is winning
+ reduceVisitsThreshold = 0.9  # How winning a side needs to be (winrate)
+ reduceVisitsThresholdLookback = 3  # How many consecutive turns needed to be that winning
+-reducedVisitsMin = 100  # Minimum number of visits (never reduce below this)
++reducedVisitsMin = 20 #100  # Minimum number of visits (never reduce below this)
+ reducedVisitsWeight = 0.1  # Minimum training weight
+ 
+ handicapAsymmetricPlayoutProb = 0.5  # In handicap games, play with unbalanced players with this probablity
+@@ -109,7 +109,7 @@ noResultStdev = 0.166666666
+ 
+ # Search limits-----------------------------------------------------------------------------------
+ 
+-maxVisits = 600
++maxVisits = 20 #600
+ numSearchThreads = 1
+ 
+ # GPU Settings-------------------------------------------------------------------------------
+diff --git a/python/selfplay/synchronous_loop.sh b/python/selfplay/synchronous_loop.sh
+index 02b75fdd..2db5c76b 100755
+--- a/python/selfplay/synchronous_loop.sh
++++ b/python/selfplay/synchronous_loop.sh
+@@ -45,11 +45,11 @@ mkdir -p "$BASEDIR"/gatekeepersgf
+ 
+ # NOTE: You probably want to edit settings in the cpp/configs/selfplay1.cfg - what board sizes and rules, you want to learn, number of visits to use, etc.
+ # NOTE: You may want to adjust these numbers.
+-NUM_GAMES_PER_CYCLE=1000
++NUM_GAMES_PER_CYCLE=10 #1000
+ NUM_THREADS_FOR_SHUFFLING=8
+ NUM_TRAIN_SAMPLES_PER_CYCLE=500000
+ BATCHSIZE=128 # KataGo normally uses batch size 256, and you can do that too, but for lower-end GPUs 64 or 128 may be needed to avoid running out of memory.
+-SHUFFLE_MINROWS=80000
++SHUFFLE_MINROWS=80 #80000
+ SHUFFLE_KEEPROWS=600000 # A little larger than NUM_TRAIN_SAMPLES_PER_CYCLE
+ 
+ # For archival and logging purposes - you can look back and see exactly the python code on a particular date

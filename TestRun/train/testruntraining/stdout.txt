@@ -1,0 +1,964 @@
+['/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/python/train.py', '-traindir', '/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/train/testruntraining', '-datadir', '/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/current/', '-exportdir', '/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/tfsavedmodels_toexport', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-max-epochs-this-instance', '1', '-samples-per-epoch', '500000']
+Initializing with new model config
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+2021-05-12 16:34:43.031734: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': '/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Updated training data: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356
+Wrote /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-05-12 16:34:44.036602
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 1109
+WARNING:tensorflow:From /Users/marktakken/miniconda3/envs/apple_tensorflow/lib/python3.8/site-packages/tensorflow/python/training/training_util.py:235: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 122/1 files used (976 batches)
+WARNING:tensorflow:AutoGraph could not transform <function make_tf_record_parser.<locals>.parse_input at 0x159773af0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2021-05-12 16:34:48.390250: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-05-12 16:34:48.457814: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/train/testruntraining/trainhistory.json
+2021-05-12 16:34:52.799230: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+['/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/python/train.py', '-traindir', 'TestRun//train/testruntraining', '-datadir', 'TestRun//shuffleddata/current/', '-exportdir', 'TestRun//tfsavedmodels_toexport_extra', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-no-export']
+Loading existing model config at TestRun//train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+2021-05-12 16:38:14.343416: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': 'TestRun//train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Loading existing training history: TestRun//train/testruntraining/trainhistory.json
+Updated training data: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356
+Wrote TestRun//train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-05-12 16:38:15.313849
+Global step: 0 (0 samples)
+Currently up to data row 1109
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 1109
+WARNING:tensorflow:From /Users/marktakken/miniconda3/envs/apple_tensorflow/lib/python3.8/site-packages/tensorflow/python/training/training_util.py:235: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 245/1 files used (1960 batches)
+WARNING:tensorflow:AutoGraph could not transform <function make_tf_record_parser.<locals>.parse_input at 0x1609af9d0> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2021-05-12 16:38:19.322694: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Restoring parameters from TestRun//train/testruntraining/model.ckpt-0
+2021-05-12 16:38:19.385304: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+WARNING:tensorflow:From /Users/marktakken/miniconda3/envs/apple_tensorflow/lib/python3.8/site-packages/tensorflow/python/training/saver.py:1076: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into TestRun//train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote TestRun//train/testruntraining/trainhistory.json
+2021-05-12 16:38:22.919912: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+['/Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/python/train.py', '-traindir', 'TestRun//train/testruntraining', '-datadir', 'TestRun//shuffleddata/current/', '-exportdir', 'TestRun//tfsavedmodels_toexport_extra', '-exportprefix', 'testruntraining', '-pos-len', '19', '-batch-size', '128', '-gpu-memory-frac', '0.6', '-model-kind', 'b6c96', '-sub-epochs', '4', '-swa-sub-epoch-scale', '4', '-no-export']
+Loading existing model config at TestRun//train/testruntraining/model.config.json
+{'version': 10, 'support_japanese_rules': True, 'use_fixup': True, 'use_scoremean_as_lead': False, 'use_initial_conv_3': True, 'use_fixed_sbscaling': True, 'trunk_num_channels': 96, 'mid_num_channels': 96, 'regular_num_channels': 64, 'dilated_num_channels': 32, 'gpool_num_channels': 32, 'block_kind': [['rconv1', 'regular'], ['rconv2', 'regular'], ['rconv3', 'gpool'], ['rconv4', 'regular'], ['rconv5', 'gpool'], ['rconv6', 'regular']], 'p1_num_channels': 32, 'g1_num_channels': 32, 'v1_num_channels': 32, 'sbv2_num_channels': 48, 'v2_size': 64}
+2021-05-12 16:38:45.516903: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+Build SWA graph for SWA update and saving, 68 variables
+Beginning training
+INFO:tensorflow:Using config: {'_model_dir': 'TestRun//train/testruntraining', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': 1000000000, '_save_checkpoints_secs': None, '_session_config': gpu_options {
+  per_process_gpu_memory_fraction: 0.6
+}
+, '_keep_checkpoint_max': 10, '_keep_checkpoint_every_n_hours': 1000000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_session_creation_timeout_secs': 7200, '_checkpoint_save_graph_def': True, '_service': None, '_cluster_spec': ClusterSpec({}), '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+Loading existing training history: TestRun//train/testruntraining/trainhistory.json
+Updated training data: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356
+Wrote TestRun//train/testruntraining/trainhistory.json
+GC collect
+=========================================================================
+BEGINNING NEXT EPOCH 0
+=========================================================================
+Current time: 2021-05-12 16:38:46.464647
+Global step: 0 (0 samples)
+Currently up to data row 1109
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Yielding training file for dataset: /Users/marktakken/Documents/KataGo/MacOS/KataGoTF2MacOS/TestRun/shuffleddata/20210512-163356/train/data0.tfrecord
+Beginning training subepoch!
+Currently up to data row 1109
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+Constructing train input pipe, 245/1 files used (1960 batches)
+INFO:tensorflow:Calling model_fn.
+Building model
+Model version: 10
+Model variable: conv1/w:0, 19008 parameters
+Model variable: ginputw:0, 1824 parameters
+Model variable: rconv1/norm1/beta:0, 96 parameters
+Model variable: rconv1/w1:0, 82944 parameters
+Model variable: rconv1/norm2/gamma:0, 96 parameters
+Model variable: rconv1/norm2/beta:0, 96 parameters
+Model variable: rconv1/w2:0, 82944 parameters
+Model variable: rconv2/norm1/beta:0, 96 parameters
+Model variable: rconv2/w1:0, 82944 parameters
+Model variable: rconv2/norm2/gamma:0, 96 parameters
+Model variable: rconv2/norm2/beta:0, 96 parameters
+Model variable: rconv2/w2:0, 82944 parameters
+Model variable: rconv3/norm1/beta:0, 96 parameters
+Model variable: rconv3/w1a:0, 55296 parameters
+Model variable: rconv3/w1b:0, 27648 parameters
+Model variable: rconv3/norm1b/beta:0, 32 parameters
+Model variable: rconv3/w1r:0, 6144 parameters
+Model variable: rconv3/norm2/gamma:0, 64 parameters
+Model variable: rconv3/norm2/beta:0, 64 parameters
+Model variable: rconv3/w2:0, 55296 parameters
+Model variable: rconv4/norm1/beta:0, 96 parameters
+Model variable: rconv4/w1:0, 82944 parameters
+Model variable: rconv4/norm2/gamma:0, 96 parameters
+Model variable: rconv4/norm2/beta:0, 96 parameters
+Model variable: rconv4/w2:0, 82944 parameters
+Model variable: rconv5/norm1/beta:0, 96 parameters
+Model variable: rconv5/w1a:0, 55296 parameters
+Model variable: rconv5/w1b:0, 27648 parameters
+Model variable: rconv5/norm1b/beta:0, 32 parameters
+Model variable: rconv5/w1r:0, 6144 parameters
+Model variable: rconv5/norm2/gamma:0, 64 parameters
+Model variable: rconv5/norm2/beta:0, 64 parameters
+Model variable: rconv5/w2:0, 55296 parameters
+Model variable: rconv6/norm1/beta:0, 96 parameters
+Model variable: rconv6/w1:0, 82944 parameters
+Model variable: rconv6/norm2/gamma:0, 96 parameters
+Model variable: rconv6/norm2/beta:0, 96 parameters
+Model variable: rconv6/w2:0, 82944 parameters
+Model variable: trunk/norm/beta:0, 96 parameters
+Model variable: p1/intermediate_conv/w:0, 3072 parameters
+Model variable: g1/w:0, 3072 parameters
+Model variable: g1/norm/beta:0, 32 parameters
+Model variable: matmulg2w:0, 3072 parameters
+Model variable: p1/norm/beta:0, 32 parameters
+Model variable: p2/w:0, 64 parameters
+Model variable: matmulpass:0, 192 parameters
+Model variable: v1/w:0, 3072 parameters
+Model variable: v1/norm/beta:0, 32 parameters
+Model variable: v2/w:0, 6144 parameters
+Model variable: v2/b:0, 64 parameters
+Model variable: v3/w:0, 192 parameters
+Model variable: v3/b:0, 3 parameters
+Model variable: mv3/w:0, 640 parameters
+Model variable: mv3/b:0, 10 parameters
+Model variable: mmv3/w:0, 512 parameters
+Model variable: mmv3/b:0, 8 parameters
+Model variable: sb2/w:0, 4608 parameters
+Model variable: sb2/b:0, 48 parameters
+Model variable: sb2_offset/w:0, 48 parameters
+Model variable: sb2_parity/w:0, 48 parameters
+Model variable: sbscale2/w:0, 4608 parameters
+Model variable: sbscale2/b:0, 48 parameters
+Model variable: sb3/w:0, 48 parameters
+Model variable: sbscale3/w:0, 48 parameters
+Model variable: vownership/w:0, 32 parameters
+Model variable: vscoring/w:0, 32 parameters
+Model variable: futurepos/w:0, 192 parameters
+Model variable: seki/w:0, 384 parameters
+Model: 1005269 total parameters
+Supporting japanese rules: True
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+2021-05-12 16:38:51.203136: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Restoring parameters from TestRun//train/testruntraining/model.ckpt-0
+2021-05-12 16:38:51.273715: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+WARNING:tensorflow:From /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tensorflow/python/training/saver.py:1076: get_checkpoint_mtimes (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file utilities to get mtimes.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Calling checkpoint listeners before saving checkpoint 0...
+INFO:tensorflow:Saving checkpoints for 0 into TestRun//train/testruntraining/model.ckpt.
+INFO:tensorflow:Calling checkpoint listeners after saving checkpoint 0...
+Wrote TestRun//train/testruntraining/trainhistory.json
+2021-05-12 16:38:55.324669: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+INFO:tensorflow:loss = 32.963337, step = 0
+INFO:tensorflow:esstloss = 2.7015867, evstloss = 0.039632685, exgnorm = 0.0, fploss = 2.9641757, gnorm = 1301.2493, leadloss = 0.00020335094, nsamp = 0, oloss = 0.9242686, p0loss = 5.5054173, p1loss = 0.7228064, pacc1 = 0.0, pslr = 1e-05, ptentr = 1.5087447, rloss = 0.0006593419, rscloss = 2.3039107e-07, rsdloss = 9.7267, sbcdfloss = 2.2988746, sbpdfloss = 0.12144926, skloss = 0.050451882, skw = 0.039879262, sloss = 0.80314684, smloss = 2.8092904, tdsloss = 0.14544223, tdvloss = 0.21643974, vloss = 1.2446727, vtimeloss = 2.6881204, wsum = 0.0
